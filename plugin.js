@@ -83,3 +83,8 @@ let infoObj ={
 infoObj.price = 1000;
 infoObj.currency = 'dollar';
 // задание 3
+infoObj.detalis = {};
+infoObj.detalis.model = '7s';
+infoObj.detalis.color = 'black';
+
+console.log(infoObj);
