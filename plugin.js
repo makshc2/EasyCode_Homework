@@ -1,9 +1,9 @@
 //1.Названия для переменных (var)
 
-var price = 10;
-var MAXNUM = 100;
-var USERNAME = 'Maxim';
-var userInfo = 'developer';
+let price = 10;
+const MAX_NUM = 100;
+const USER_NAME = 'Maxim';
+let userInfo = 'developer';
 
 //Что будет в консоли:
 console.log(test);
@@ -38,41 +38,34 @@ let value;
 value = string[0] + string[string.length-1]; //задание 1
 value = string[0].toUpperCase() + string.slice(1,-1) + string[string.length-1].toUpperCase(); //задание 2
 value = string.indexOf('string'); //задание 3
-value = string.lastIndexOf(' '); //задание 4
-value = string.substr(4, 5); //задание 5
+value = string.indexOf(' ', 5); //задание 4
+value = string.substr(4, 4); //задание 5
 value = string.slice(4, 9); //задание 6
 value = string.slice(0, -6); //задание 7
 // задание 8
-let a = 20,
-    b = 16;
-let string;
-string = 20 + '16';
+let string = 20 + '' + 16;
 
 //4.Числа
 
 // задание 1
-let number;
-number = Math.PI.toFixed(2);
+
+let number = Math.PI.toFixed(2);
 // задание 2
-let maxNumber;
-maxNumber = Math.max(15, 11, 16, 12, 51, 12, 13, 51);
-let minNumber;
-minNumber = Math.min(15, 11, 16, 12, 51, 12, 13, 51);
+const maxNumber = Math.max(15, 11, 16, 12, 51, 12, 13, 51);
+const minNumber = Math.min(15, 11, 16, 12, 51, 12, 13, 51);
 console.log('Максимальное число:', maxNumber, 'Минимальное число:', minNumber);
 // Задание 3
 //a.
-let randNum;
-randNum = Math.random().toFixed(2);
+
+let randNum = Math.random().toFixed(2);
 //b.
-let randNum;
 let x = 27;
-randNum = Math.floor(Math.random()*x);
+let randNum = Math.round(Math.random()*x);
 //Задание 4
-let result;
-result = (0.6 + 0.7).toFixed(1);
+let result = ((0.6 * 10 + 0.7 * 10) / 10);
 //Задание 5
-let num;
-num = parseInt('100$');
+
+let num = parseInt('100$');
 
 //5. Oбъекты
 // задание 1
