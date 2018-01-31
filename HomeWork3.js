@@ -58,26 +58,3 @@ function every (arr, handler) {
 }
 
 every([1, 2, 3], el => typeof el === 'number');
-
-
-
-
-
-// Задача №2 (рекурсия)
-
-// function factorial(x) {
-//     return x != 1 ? x * factorial(x - 1) : x;
-// }
-//
-// factorial (10);
-
-// Задача №5 (рекурсия)
-
-// function printCharts(str) {
-//     if(str.length > 0){
-//         console.log(str[0])
-//         printCharts(str.slice(1));
-//     }
-//     return str;
-// }
-// printCharts('test');
