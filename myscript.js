@@ -38,7 +38,9 @@ if( num == 0 ){
 }
 //Тоже самое, но тернарным оператором:
 let num = 1;
-num = num == 0 ? num = 1 : num < 0 ? num = 'less then zero' : num *=10;
+num = !num ? 1
+    : num < 0 ? 'less then zero'
+    : num *=10;
 
 // Конструкция switch... case:
 let a = 'maxim';
@@ -79,42 +81,42 @@ true + undefined; //Ответ: NaN. true при численном преобр
 let string = 'I am in the easycode';
 let str = '';
 for (let i = 0; i < string.length; i++){
-    if(string[ i -1 ] == ' '){
-        str += string[i].toUpperCase();
-    }else{
-        str += string[i]
-    }
+    string[ i -1 ] === ' ' ? str += string[i].toUpperCase()
+                           : str += string[i];
 }
+
 console.log(str);
+
 //2.
 let string = 'tseb eht ma i';
 let str = '';
 for(let i = string.length ; i >= 0; i--){
     str += string.charAt(i) ;
 }
+
 console.log(str);
+
 //3.
 let result = 1;
 for(let i = 1; i <= 10; i++ ){
     result *= i;
 }
+
 console.log(result);
+
 //4.
 let result = 1;
 let str = 'Считаем до 10и:';
 for(let i = 1; i <= 10; i++){
-    str += i;
+    str += i + ',';
 }
 console.log(str);
 //5.
 let string = 'JavaScript is a pretty good language';
 let str = '';
 for (let i = 0; i < string.length; i++){
-    if(string[ i -1 ] == ' '){
-        str += string[i].toUpperCase();
-    }else{
-        str += string[i].split(' ').join('');
-    }
+    string[ i -1 ] === ' ' ? str += string[i].toUpperCase()
+                           : str += string[i].split(' ').join('');
 }
 console.log(str);
 
