@@ -54,7 +54,20 @@ getResult(['abc','123'], array => array.split('').reverse().join('') + ',');
 // Дополнительная задача на метод every для массива
 
 function every (arr, handler) {
+    for ( let i = 0; i < arr.length; i++ ){
+        if(!handler(arr[i])) return false
+    }
+    return true;
+}
+every([1, 2, 'string'], el => typeof el === 'number');
+
+
+//метод some немного улучшеный
+function some (arr, handler) {
     for ( let i = 0; i < arr.length; i++ ) return !!handler(arr[i])
 }
 
-every([1, 2, 3], el => typeof el === 'number');
+some([1, 2, 3], el => typeof el === 'number');
+
+
+
