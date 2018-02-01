@@ -1,11 +1,12 @@
 // Задача №1
 
 function multiply() {
+    if(!arguments.length) return 0;
     let result = 1;
     for ( let i = 0; i < arguments.length; ++i ){
         result *= arguments[i];
     }
-    return arguments.length === 0 ? 0 : result;
+    return result;
 }
 
 multiply (1, 2, 3, 4, 5);
@@ -13,6 +14,7 @@ multiply (1, 2, 3, 4, 5);
 // Задача №3
 
 function reverseString(str) {
+    if( typeof str !== 'string' || str.length <= 0 ) return new Error ('No string');
     return str.split('').reverse().join('');
 }
 reverseString('test');
@@ -20,9 +22,10 @@ reverseString('test');
 // Задача №4
 
 function getCodeStringFromText(str) {
+    if( typeof str !== 'string' || str.length <= 0 ) return new Error ('No string');
     let string = '';
     for ( let i = 0; i < str.length; i++ ) {
-        string += str.charCodeAt(i) + " ";
+        string += str.charCodeAt(i) + ' ';
     }
     return string;   
 }
