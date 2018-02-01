@@ -62,12 +62,4 @@ function every (arr, handler) {
 every([1, 2, 'string'], el => typeof el === 'number');
 
 
-//метод some немного улучшеный
-function some (arr, handler) {
-    for ( let i = 0; i < arr.length; i++ ) return !!handler(arr[i])
-}
-
-some([1, 2, 3], el => typeof el === 'number');
-
-
 
