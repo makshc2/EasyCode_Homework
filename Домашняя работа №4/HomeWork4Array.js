@@ -35,17 +35,14 @@ getArray(10);
 
 //Задача №4
 
-// function changeCollection() {
-//     let newArr = [];
-//     for (let i = 0; i < arguments.length; i++) {
-//         for (let j = 0; j < arguments[i].length; j++) {
-//             newArr.push(arguments[i].shift());
-//         }
-//     }
-//     return newArr;
-// }
-//
-// changeCollection([1, 2, 3], ['a', 'b', 'c']);
+function changeCollection(...args) {
+    for (let i = 0; i < args.length; i++) {
+            args[i].shift();
+        }
+    return args;
+}
+
+changeCollection([1, 2, 3], ['a', 'b', 'c']);
 
 //Массивы
 
@@ -77,11 +74,11 @@ getNewArray(['a', 'b', 'c', 'd', 'e', 'f'], 2, 4);
 
 // Задача №4
 
-function doubleArray(array) {
+function doubleArr(array) {
     return (`${array} ${array.concat('')}`);
 }
 
-doubleArray(['one', 2, 'three', 4]);
+doubleArr(['one', 2, 'three', 4]);
 
 // Задача №5
 

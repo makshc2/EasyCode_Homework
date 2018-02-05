@@ -13,6 +13,6 @@ console.log(document.body.childNodes);
 // задание 4
 console.log(document.body.children[0]);
 // a:
-console.log(document.body.children[0].children);
+console.log(document.body.children[0].childNodes);
 //b:
-console.log(document.body.children[0].children);
+
