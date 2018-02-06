@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     isParent(document.querySelector('ul'), document.querySelector('mark'));
 
     // Задача 2.
-    console.log(document.querySelector('a'));
+    console.log(document.querySelector('div').getElementsByTagName('a'));
 
     // Задача 3.
     console.log(document.querySelector('ul').previousElementSibling);
