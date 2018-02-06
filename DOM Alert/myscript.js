@@ -6,7 +6,7 @@ function showDiv(text) {
    div.textContent = text;
    div.classList.add('show');
    buttons.classList.add('hidden')
-   setTimeout((hideDiv) => {
+   setTimeout(( hideDiv ) => {
        div.classList.remove('show')
        buttons.classList.remove('hidden')
    }, 2500);
