@@ -1,0 +1,13 @@
+.alert{
+    text-align: center;
+    display: none;
+}
+.button{
+    margin-left: 750px;
+}
+.show{
+    display: block;
+}
+.btn-danger{
+    text-align: center;
+}
