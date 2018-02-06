@@ -12,8 +12,10 @@ console.log(document.body.childNodes);
 
 // задание 4
 console.log(document.body.children[0]);
-// a:
+//a:
+
 console.log(document.body.children[0].childNodes);
 //b:
+
 console.log(document.body.children[0].firstElementChild.nextElementSibling);
 console.log(document.body.children[0].lastElementChild.previousElementSibling);
