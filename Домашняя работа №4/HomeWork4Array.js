@@ -165,4 +165,5 @@ function filterCollection(arr, priceMin, priceMax) {
     }
     return newCollection.sort ((previous, next) => previous.price - next.price);
 }
+
 filterCollection(products, 15, 30);
