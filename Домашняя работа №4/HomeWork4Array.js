@@ -14,9 +14,7 @@ doubleArray(['one', 'two', 'three', 4, 5]);
 
 //Задача №2
 
-function lastElement(array) {
-    return array[array.length -1];
-}
+let lastElement = array => array[array.length -1];
 
 lastElement(['one','two', 3, 4, 'five']);
 
@@ -48,35 +46,26 @@ changeCollection([1, 2, 3], ['a', 'b', 'c']);
 
 // Задача №1
 
-function stringSort(str) {
-    return str.split('').sort().reverse().join('');
-}
+let stringSort = str => str.split('').sort().reverse().join('');
 
 stringSort('bcdaeflmjgkhi');
 
 
 //Задача №2
 
-function sortArrayReverse(arr) {
-      return arr.sort ((previous, next) => next - previous);
-}
+let sortArrayReverse = arr =>  arr.sort ((previous, next) => next - previous);
+
 sortArrayReverse([2, 4, 7, 1, -2, 10, -9]);
 
 //Задача №3
 
-function getNewArray(arr, a, b) {
-    let newArr = arr.slice(a, b + 1); // метод slice вырезает часть массива с - по, но не включает послений элемент,
-                                      // для этого было использавано b+1
-    return newArr;
-    }
+let getNewArray = (arr, a, b) => arr.slice(a, b + 1);
 
 getNewArray(['a', 'b', 'c', 'd', 'e', 'f'], 2, 4);
 
 // Задача №4
 
-function doubleArr(arr) {
-    return arr.concat(arr);
-}
+let doubleArr = (arr) => arr.concat(arr);
 
 doubleArr(['one', 2, 'three', 4]);
 
@@ -109,9 +98,7 @@ addNewElement(['I', 'am', 'an', 'array']);
 
 // Задача №8
 
-function sortArrayInArr(arr) {
-    return arr.sort ((previous, next) => previous.length - next.length);
-}
+let sortArrayInArr = (arr) => arr.sort ((previous, next) => previous.length - next.length);
 
 sortArrayInArr([
     [14,45],
@@ -120,18 +107,13 @@ sortArrayInArr([
 ]);
 
 // Задача №9
-
-function copyArr(arr) {
-    return arr.concat();
-}
+let copyArr = (arr) => arr.concat();
 
 copyArr(['I', 'am', 'an', 'array']);
 
 // Задача №10
 
-function sortCore(arr) {
-    return arr.sort ((previous, next) => previous.info.cores - next.info.cores);
-}
+let sortCore = (arr) => arr.sort ((previous, next) => previous.info.cores - next.info.cores);
 
 sortCore([
     {cpu:'intel', info:{cores: 2, cache: 3}},
