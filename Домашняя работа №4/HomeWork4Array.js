@@ -2,12 +2,12 @@
 
 //Задача №1
 
-function doubleArray(array) {
-    let newArr = [].concat(array);
-    for ( let i =0; i < array.length; i++ ){
-        newArr.push(array[i]);
+function doubleArray(arr) {
+    let copy = arr.slice();
+    for(let i = 0; i < arr.length;  i++ ) {
+        copy.push(arr[i]);
     }
-    return newArr;
+    return copy;
 }
 
 doubleArray(['one', 'two', 'three', 4, 5]);
@@ -23,7 +23,7 @@ lastElement(['one','two', 3, 4, 'five']);
 //Задача №3
 
 function getArray(num) {
-    if( typeof num !== 'number' && typeof num === 'undefined' ) return new Error ('No number');
+    if( typeof num === 'undefined' || typeof num === 'NaN' || typeof num === 'Infinity' || Math.sign(num) === -1 ) return new Error ('No number');
     let newArr = [];
     for (let i = 1; i <= num; i++) {
         newArr.push(i);
@@ -58,7 +58,7 @@ stringSort('bcdaeflmjgkhi');
 //Задача №2
 
 function sortArrayReverse(arr) {
-      return arr.sort ((previous, next) => previous - next).reverse();
+      return arr.sort ((previous, next) => next - previous);
 }
 sortArrayReverse([2, 4, 7, 1, -2, 10, -9]);
 
@@ -74,8 +74,8 @@ getNewArray(['a', 'b', 'c', 'd', 'e', 'f'], 2, 4);
 
 // Задача №4
 
-function doubleArr(array) {
-    return (`${array} ${array.concat('')}`);
+function doubleArr(arr) {
+    return arr.concat(arr);
 }
 
 doubleArr(['one', 2, 'three', 4]);
@@ -122,8 +122,7 @@ sortArrayInArr([
 // Задача №9
 
 function copyArr(arr) {
-    let newArr = arr.concat();
-    return newArr;
+    return arr.concat();
 }
 
 copyArr(['I', 'am', 'an', 'array']);

@@ -1,10 +1,14 @@
 // DOM задачи
 // Задача 1.
-document.addEventListener('DOMContentLoaded', function () {
-    console.clear();
-    function isParent(parent, child) {
-        return parent.contains(child);
-    }
+
+    let isParent = (parent, child) => {
+        let parentElement = child.parentElement;
+        while (parentElement !== document) {
+            if(parentElement === parent) return true;
+            parentElement = parentElement.parentElement;
+        }
+        return false;
+    };
     isParent(document.body.children[0], document.querySelector('mark'));
     isParent(document.querySelector('ul'), document.querySelector('mark'));
 
@@ -17,7 +21,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Задача 4.
     let mylist = document.querySelector('ul');
-
     console.log(mylist.childElementCount);
-});
 
