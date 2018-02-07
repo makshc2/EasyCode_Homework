@@ -21,7 +21,7 @@ lastElement(['one','two', 3, 4, 'five']);
 //Задача №3
 
 function getArray(num) {
-    if( typeof num === 'undefined' || typeof num === 'NaN' || typeof num === 'Infinity' || Math.sign(num) === -1 ) return new Error ('No number');
+    if( typeof num === 'undefined' || typeof num === 'NaN' || typeof num === 'Infinity' || Math.sign(num) === -1 ) return new Error ('No number'); // проверка аргумента на число
     let newArr = [];
     for (let i = 1; i <= num; i++) {
         newArr.push(i);
