@@ -84,7 +84,7 @@ function  deleteListItem(target) {
 ul.addEventListener('click', function (e) {
     if( e.target.classList.contains('delete-item') ){
         deleteListItem(e.target);
-        dangerDiv.classList.add('alert_show');
+        dangerDiv.classList.add('alert_show'); // выводит сообщение  Task has been removed success
     }
     setTimeout(() => {
         dangerDiv.classList.remove('alert_show'); // сделано для того, что бы сообщение пропадало через 2,5 секунды
@@ -99,7 +99,7 @@ form.addEventListener('submit', function (e) {
     }else {
         inputText.classList.remove('is-invalid');
         addList(inputText.value);
-        successDiv.classList.add('alert_show');
+        successDiv.classList.add('alert_show'); //выводит сообщение Task added success
         form.reset();
     }
     setTimeout(() => {
