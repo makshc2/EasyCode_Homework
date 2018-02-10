@@ -1,0 +1,8 @@
+.alert-success, .alert-danger, .alert-info{
+    display: none;
+}
+
+.alert_show{
+    display: flex;
+    justify-content: center;
+}
