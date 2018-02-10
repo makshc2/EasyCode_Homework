@@ -23,7 +23,8 @@ let divInfoClearList = document.querySelector('.alert-info');
 function alertInfo() {
     tasks.length === 0 ? divInfoClearList.classList.add('alert_show') : divInfoClearList.classList.remove('alert_show');
 }
-alertInfo(tasks); // проверяем наличие елементов в массиве при загрузке страницы. Если их нет - сразу выводим сообщение Empty list.
+alertInfo(tasks); // проверяем наличие елементов в массиве при загрузке страницы. Если их нет - сразу
+// выводим сообщение Empty list.
 
 //функция которая создает одну строку li
 function listTemplate(task) {
@@ -41,7 +42,8 @@ function listTemplate(task) {
 function clearList() {
     ul.innerHTML = '';
     tasks.splice(0, tasks.length); // удаление всех задач из массива после очистки списка
-    alertInfo(tasks); // после очистки всех елементов в Task list - проверяем массив на наличие элементов (он будет равен 0) и выводим сообщение Empty list.
+    alertInfo(tasks); // после очистки всех елементов в Task list - проверяем массив на наличие элементов
+    // (он будет равен 0) и выводим сообщение Empty list.
     clearListDiv.classList.add('alert_show'); // Сообщение о том, что весь список был очищен
     setTimeout(() => {
         clearListDiv.classList.remove('alert_show');// сделано для того, что бы сообщение пропадало через 2,5 секунды
@@ -72,7 +74,8 @@ function  deleteListItem(target) {
     let index = tasks.indexOf(parent.textContent);
     tasks.splice(index, 1);
     parent.remove();
-    alertInfo(tasks); // проверяет массив на наличие элементов при удалении каждого елемента отдельно и когда будет удален последний элемент, выводит сообщение Empty list.
+    alertInfo(tasks); // проверяет массив на наличие элементов при удалении каждого елемента отдельно и когда будет
+    // удален последний элемент, выводит сообщение Empty list.
 }
 
 ul.addEventListener('click', function (e) {
