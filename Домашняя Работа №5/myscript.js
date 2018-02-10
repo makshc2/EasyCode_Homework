@@ -23,7 +23,7 @@ let divInfoClearList = document.querySelector('.alert-info');
 function alertInfo() {
     tasks.length === 0 ? divInfoClearList.classList.add('alert_show') : divInfoClearList.classList.remove('alert_show');
 }
-alertInfo(tasks); // проверяем наличие елементов в массиве. Если их нет - сразу выводим сообщение Empty list.
+alertInfo(tasks); // проверяем наличие елементов в массиве при загрузке страницы. Если их нет - сразу выводим сообщение Empty list.
 
 //функция которая создает одну строку li
 function listTemplate(task) {
