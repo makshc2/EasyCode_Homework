@@ -3,7 +3,8 @@
     display: none;
 }
 .button{
-    margin-left: 750px;
+    display: flex;
+    justify-content: center;
 }
 .show{
     display: block;
