@@ -29,6 +29,17 @@ function alertInfo() {
 alertInfo(tasks); // проверяем наличие елементов в массиве при загрузке страницы. Если их нет - сразу
 // выводим сообщение Empty list.
 
+//функция которая удаляет через определенное время информационные сообщения
+//Вывел ее в одельную функцию т.к. она используется в 3 разных местах, что бы не засорять одинаковым кодом
+
+function deleteAlertInfo() {
+    setTimeout(() => {
+        clearListDiv.classList.remove('alert_show');
+        dangerDiv.classList.remove('alert_show');
+        successDiv.classList.remove('alert_show');
+    }, 2500);
+}
+
 //функция которая создает одну строку li
 function listTemplate(task) {
     alertInfo(tasks); // если массив tasks не пустой - скрываем сообщение Empty list.
@@ -48,9 +59,7 @@ function clearList() {
     alertInfo(tasks); // после очистки всех елементов в Task list - проверяем массив на наличие элементов
     // (он будет равен 0) и выводим сообщение Empty list.
     clearListDiv.classList.add('alert_show'); // Сообщение о том, что весь список был очищен
-    setTimeout(() => {
-        clearListDiv.classList.remove('alert_show');// сделано для того, что бы сообщение пропадало через 2,5 секунды
-    }, 2500);
+    deleteAlertInfo();
 }
 
 // проходится по массиву, обрабатывает его и добавляет в li наши таски.
@@ -60,7 +69,6 @@ function generateList(tasksArray) {
         let li = listTemplate (tasksArray[i]);
         ul.appendChild(li);
     }
-    // setDeleteEvent();
 }
 
 //Добавляет новую информацию в массив, который обрабатывают функции выше
@@ -86,9 +94,7 @@ ul.addEventListener('click', function (e) {
         deleteListItem(e.target);
         dangerDiv.classList.add('alert_show'); // выводит сообщение  Task has been removed success
     }
-    setTimeout(() => {
-        dangerDiv.classList.remove('alert_show'); // сделано для того, что бы сообщение пропадало через 2,5 секунды
-    }, 2500);
+    deleteAlertInfo();
 });
 form.addEventListener('submit', function (e) {
     e.preventDefault();
@@ -102,9 +108,7 @@ form.addEventListener('submit', function (e) {
         successDiv.classList.add('alert_show'); //выводит сообщение Task added success
         form.reset();
     }
-    setTimeout(() => {
-        successDiv.classList.remove('alert_show'); // сделано для того, что бы сообщение пропадало через 2,5 секунды
-}, 2500);
+    deleteAlertInfo();
 
 });
 inputText.addEventListener('keyup', function (e) {
