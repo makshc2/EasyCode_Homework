@@ -1,5 +1,3 @@
-// Models
-
 // Массив в localStorage
 let items = JSON.parse(localStorage.getItem('items')) || [];
 
@@ -10,27 +8,31 @@ let table = document.querySelector('.table');
 let form = document.forms['addItems'];
 let inputName = form.elements['itemName'];
 let inputPrice = form.elements['itemPrice'];
+let button = document.querySelector('.sort');
+let successDiv = document.querySelector('.alert-success');
 
-//генерация рамзетки из массива
+
+
+//генерация разметки из массива
 function generateList() {
-    table.innerHTML = '';
+    table.innerHTML = ''; // очистка списка, для того, что бы не дублировать массив
     for (let i = 0; i < items.length; i++) {
         let template = `
-    <tr data-id=${items[i].id}>
-        <td>
-           ${items[i].name}
-        </td>
-        <td>
-            ${items[i].price}
-        </td>
-    </tr>
-`;
+            <tr data-id=${items[i].id}>
+                <td>
+                  ${items[i].name}
+                </td>
+                 <td>
+                   ${items[i].price}
+                </td>
+            </tr>
+                    `;
         table.insertAdjacentHTML('afterbegin', template);
     }
 };
+generateList(); // загружаем товары из массива при загрузке страницы
 
-
-// генерация ID
+//генерация ID
 
 function generateId() {
     let id = '';
@@ -42,6 +44,15 @@ function generateId() {
     return id;
 }
 
+//функция которая удаляет через определенное время информационные сообщения
+
+function deleteAlertInfo() {
+    setTimeout(() => {
+        // dangerDiv.classList.remove('alert_show');
+        successDiv.classList.remove('alert_show');
+    }, 2500);
+}
+
 //Добавляет новую информацию в массив, который обрабатывают функции выше
 function addList(text, number) {
     let newItems = {
@@ -50,13 +61,16 @@ function addList(text, number) {
         price: number
     };
     items.unshift(newItems);
-    generateList();
     localStorage.setItem('items', JSON.stringify(items));
+    generateList();
 }
+
+
+
 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
-
+// проверка строки на пустое значение, если пустое, то подстветка красным
     if (!inputName.value  || !inputPrice.value){
         inputName.classList.add('is-invalid');
         inputPrice.classList.add('is-invalid');
@@ -64,13 +78,25 @@ form.addEventListener('submit', function (e) {
         inputName.classList.remove('is-invalid');
         inputPrice.classList.remove('is-invalid');
         addList(inputName.value, inputPrice.value);
-        // successDiv.classList.add('alert_show'); //выводит сообщение Task added success
+        successDiv.classList.add('alert_show'); //выводит сообщение Item added success
         form.reset();
     }
+    deleteAlertInfo();
 });
 
+//Сортировка
 
-// Генерировать разметку также можно с помощью строки. Пример
+function sort() {
+    button.classList.toggle('sort')
+    if (button.classList.contains('sort') === true) {
+        items.sort((a, b) => a.price - b.price );
+    } else {
+        items.sort((a, b) => b.price - a.price );
+    }
+    generateList();
+};
+
+
 
 
 
