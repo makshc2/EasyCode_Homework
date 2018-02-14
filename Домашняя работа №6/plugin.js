@@ -10,11 +10,19 @@ let inputName = form.elements['itemName'];
 let inputPrice = form.elements['itemPrice'];
 let button = document.querySelector('.sort');
 let successDiv = document.querySelector('.alert-success');
+let dangerDiv = document.querySelector('.alert-danger');
+let divInfoClearList = document.querySelector('.alert-info');
 
 
+
+function alertInfo() {
+    items.length === 0 ? divInfoClearList.classList.add('alert_show') : divInfoClearList.classList.remove('alert_show');
+}
+alertInfo(items);
 
 //генерация разметки из массива
 function generateList() {
+    alertInfo(items);
     table.innerHTML = ''; // очистка списка, для того, что бы не дублировать массив
     for (let i = 0; i < items.length; i++) {
         let template = `
@@ -27,6 +35,14 @@ function generateList() {
                 </td>
             </tr>
                     `;
+
+        let iDelete = document.createElement('i');
+        iDelete.className = 'fas fa-trash-alt delete-item ml-4';
+        let iEdit = document.createElement('i');
+        iEdit.className = 'fas fa-edit edit-item ml-auto';
+
+        table.appendChild(iEdit);
+        table.appendChild(iDelete);
         table.insertAdjacentHTML('afterbegin', template);
     }
 };
@@ -48,7 +64,7 @@ function generateId() {
 
 function deleteAlertInfo() {
     setTimeout(() => {
-        // dangerDiv.classList.remove('alert_show');
+        dangerDiv.classList.remove('alert_show');
         successDiv.classList.remove('alert_show');
     }, 2500);
 }
@@ -96,7 +112,12 @@ function sort() {
     generateList();
 };
 
-
+inputName.addEventListener('keyup', function (e) {
+    if( inputName.value){
+        inputName.classList.remove('is-invalid');
+        inputPrice.classList.remove('is-invalid');
+    }
+});
 
 
 
