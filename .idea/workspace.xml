@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a712ed01-68d6-40fc-bbe4-633bc96eaf0b" name="Default" comment="Feed back Home work 5">
+    <list default="true" id="a712ed01-68d6-40fc-bbe4-633bc96eaf0b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Домашняя работа №6/index.html" afterPath="$PROJECT_DIR$/Домашняя работа №6/index.html" />
       <change beforePath="$PROJECT_DIR$/Домашняя работа №6/plugin.js" afterPath="$PROJECT_DIR$/Домашняя работа №6/plugin.js" />
@@ -19,37 +19,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Домашняя работа №6/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="719">
+              <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plugin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Домашняя работа №6/plugin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-487">
-              <caret line="94" column="32" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="32" />
+            <state relative-caret-position="393">
+              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding>
-                <marker date="1518723908466" expanded="true" signature="526:896" ph="..." />
-                <marker date="1518723908466" expanded="true" signature="547:604" ph="..." />
-                <marker date="1518723908466" expanded="true" signature="626:685" ph="..." />
-                <marker date="1518723908466" expanded="true" signature="709:866" ph="..." />
+                <element signature="e#2498#2634#0" expanded="false" />
+                <element signature="n#!!block;n#deleteListItem#0" expanded="false" />
+                <element signature="n#!!block;n#editListItem#0" expanded="false" />
+                <element signature="n#!!block;n#message#0" expanded="false" />
+                <element signature="e#3734#4441#0" expanded="false" />
+                <marker date="1518728573124" expanded="true" signature="663:1047" ph="..." />
+                <marker date="1518728573124" expanded="true" signature="684:741" ph="..." />
+                <marker date="1518728573124" expanded="true" signature="763:1019" ph="..." />
+                <marker date="1518728573124" expanded="true" signature="826:997" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Домашняя работа №6/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -74,9 +69,9 @@
         <option value="$PROJECT_DIR$/Домашняя работа №4/DOM Alert/style.css" />
         <option value="$PROJECT_DIR$/Домашняя Работа №5/style.css" />
         <option value="$PROJECT_DIR$/Домашняя Работа №5/myscript.js" />
-        <option value="$PROJECT_DIR$/Домашняя работа №6/index.html" />
         <option value="$PROJECT_DIR$/Домашняя работа №6/style.css" />
         <option value="$PROJECT_DIR$/Домашняя работа №6/plugin.js" />
+        <option value="$PROJECT_DIR$/Домашняя работа №6/index.html" />
       </list>
     </option>
   </component>
@@ -126,7 +121,7 @@
             <path>
               <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
               <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
-              <item name="Домашняя Работа №5" type="462c0819:PsiDirectoryNode" />
+              <item name="Домашняя работа №4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
@@ -185,7 +180,7 @@
       <workItem from="1518381978511" duration="217000" />
       <workItem from="1518675745961" duration="13698000" />
       <workItem from="1518704870501" duration="3651000" />
-      <workItem from="1518714341617" duration="6105000" />
+      <workItem from="1518714341617" duration="10689000" />
     </task>
     <task id="LOCAL-00001" summary="fix bugs">
       <created>1517480470706</created>
@@ -278,11 +273,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518715471000</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Home work 6">
+      <created>1518724007307</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1518724007307</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43522000" />
+    <option name="totallyTimeSpent" value="48106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
@@ -321,11 +323,12 @@
     <MESSAGE value="feed back home work 4" />
     <MESSAGE value="Home Work #6" />
     <MESSAGE value="Feed back Home work 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feed back Home work 5" />
+    <MESSAGE value="Home work 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home work 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -343,10 +346,15 @@
         <state relative-caret-position="40">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <marker date="1518723908466" expanded="true" signature="526:896" ph="..." />
-            <marker date="1518723908466" expanded="true" signature="547:604" ph="..." />
-            <marker date="1518723908466" expanded="true" signature="626:685" ph="..." />
-            <marker date="1518723908466" expanded="true" signature="709:866" ph="..." />
+            <element signature="e#2498#2634#0" expanded="false" />
+            <element signature="n#!!block;n#deleteListItem#0" expanded="false" />
+            <element signature="n#!!block;n#editListItem#0" expanded="false" />
+            <element signature="n#!!block;n#message#0" expanded="false" />
+            <element signature="e#3734#4441#0" expanded="false" />
+            <marker date="1518728573124" expanded="true" signature="663:1047" ph="..." />
+            <marker date="1518728573124" expanded="true" signature="684:741" ph="..." />
+            <marker date="1518728573124" expanded="true" signature="763:1019" ph="..." />
+            <marker date="1518728573124" expanded="true" signature="826:997" ph="..." />
           </folding>
         </state>
       </provider>
@@ -372,10 +380,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518723908466" expanded="true" signature="526:896" ph="..." />
-            <marker date="1518723908466" expanded="true" signature="547:604" ph="..." />
-            <marker date="1518723908466" expanded="true" signature="626:685" ph="..." />
-            <marker date="1518723908466" expanded="true" signature="709:866" ph="..." />
+            <element signature="e#2498#2634#0" expanded="false" />
+            <element signature="n#!!block;n#deleteListItem#0" expanded="false" />
+            <element signature="n#!!block;n#editListItem#0" expanded="false" />
+            <element signature="n#!!block;n#message#0" expanded="false" />
+            <element signature="e#3734#4441#0" expanded="false" />
+            <marker date="1518728573124" expanded="true" signature="663:1047" ph="..." />
+            <marker date="1518728573124" expanded="true" signature="684:741" ph="..." />
+            <marker date="1518728573124" expanded="true" signature="763:1019" ph="..." />
+            <marker date="1518728573124" expanded="true" signature="826:997" ph="..." />
           </folding>
         </state>
       </provider>
@@ -466,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №4/DOM/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -484,13 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №4/HomeWork4Array.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -532,32 +531,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №6/style.css">
+    <entry file="file://$PROJECT_DIR$/../../Лекции/Lection 5/myscript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="-1320">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №6/index.html">
+    <entry file="file://$PROJECT_DIR$/../../Лекции/Lection 6/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Лекции/Lection 6/myscript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №6/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №4/HomeWork4Array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="119" column="10" lean-forward="true" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №6/plugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487">
-          <caret line="94" column="32" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="32" />
+        <state relative-caret-position="393">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
-            <marker date="1518723908466" expanded="true" signature="526:896" ph="..." />
-            <marker date="1518723908466" expanded="true" signature="547:604" ph="..." />
-            <marker date="1518723908466" expanded="true" signature="626:685" ph="..." />
-            <marker date="1518723908466" expanded="true" signature="709:866" ph="..." />
+            <element signature="e#2498#2634#0" expanded="false" />
+            <element signature="n#!!block;n#deleteListItem#0" expanded="false" />
+            <element signature="n#!!block;n#editListItem#0" expanded="false" />
+            <element signature="n#!!block;n#message#0" expanded="false" />
+            <element signature="e#3734#4441#0" expanded="false" />
+            <marker date="1518728573124" expanded="true" signature="663:1047" ph="..." />
+            <marker date="1518728573124" expanded="true" signature="684:741" ph="..." />
+            <marker date="1518728573124" expanded="true" signature="763:1019" ph="..." />
+            <marker date="1518728573124" expanded="true" signature="826:997" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

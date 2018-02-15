@@ -1,14 +1,17 @@
 let items = JSON.parse(localStorage.getItem('items')) || [];
 console.log(items);
 let table = document.querySelector('.table');
+let tbody = document.querySelector('.content_item');
 let form = document.forms['addItems'];
 let inputName = form.elements['itemName'];
 let inputPrice = form.elements['itemPrice'];
+let minPrice = form.elements['minPrice'];
+let maxPrice = form.elements['maxPrice'];
 let button = document.querySelector('.sort');
 let divInfoAlert = document.querySelector('.alert_information');
 
 function generateList() {
-    table.innerHTML = '';
+    tbody.innerHTML = '';
     for (let i = 0; i < items.length; i++) {
         let template = `
             <tr data-id=${items[i].id}>
@@ -17,16 +20,16 @@ function generateList() {
                 </td>
                  <td>
                    ${items[i].price}
-                </td>   
-                <td>
-                    <i class ='fas fa-edit edit-item ml-2'></i>
-                    <i class ='fas fa-trash-alt delete-item ml-4'></i>
-                </td>            
+                   <span>
+                        <i class ='fas fa-edit edit-item ml-2'></i>
+                        <i class ='fas fa-trash-alt delete-item ml-1'></i>
+                    </span>
+                </td>          
             </tr>
                     `;
-        table.insertAdjacentHTML('afterbegin', template);
+        tbody.insertAdjacentHTML('afterbegin', template);
     }
-};
+}
 
 generateList();
 
@@ -48,6 +51,11 @@ function addList(text, number) {
     };
     items.unshift(newItems);
     localStorage.setItem('items', JSON.stringify(items));
+    message({
+        text: 'Item added success!',
+        cssClass: 'alert-success',
+        timeout: 3500
+    });
     generateList();
 }
 
@@ -72,7 +80,7 @@ function sort() {
         items.sort((a, b) => b.price - a.price );
     }
     generateList();
-};
+}
 
 inputName.addEventListener('keyup', function (e) {
     if( inputName.value){
@@ -89,13 +97,11 @@ function  deleteListItem(id) {
         }
     }
     localStorage.setItem('items', JSON.stringify(items));
-
     message({
         text: 'Item delete success!',
-        cssClass: 'alert-warning',
+        cssClass: 'alert-danger',
         timeout: 3500
     });
-
 }
 
 function editListItem(id, newValue){
@@ -106,13 +112,11 @@ function editListItem(id, newValue){
         }
     }
     localStorage.setItem('items', JSON.stringify(items));
-
     message({
         text: 'Item updated success!',
         cssClass: 'alert-success',
         timeout: 3500
     });
-
 }
 
 function message(settings) {
@@ -121,6 +125,7 @@ function message(settings) {
     divInfoAlert.classList.add('show');
     setTimeout(function () {
         divInfoAlert.classList.remove('show');
+        divInfoAlert.classList.remove(settings.cssClass);
     }, settings.timeout);
 }
 
@@ -130,7 +135,6 @@ table.addEventListener('click', function (e) {
         let id = parent.dataset.id;
         deleteListItem(id);
         parent.remove();
-        dangerDiv.classList.add('alert_show');
     }else if( e.target.classList.contains('edit-item') ){
         e.target.classList.toggle('fa-save');
         let id = e.target.closest('tr').dataset.id;
