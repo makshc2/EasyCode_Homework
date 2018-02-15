@@ -2,12 +2,8 @@
 // товара и сортировку по заданному диапазону, сегодня-завтра закончу все дополнительные задания
 
 
-// Массив в localStorage
 let items = JSON.parse(localStorage.getItem('items')) || [];
 
-console.log(items);
-
-//Елементы с которыми мы работаем
 let table = document.querySelector('.table');
 let form = document.forms['addItems'];
 let inputName = form.elements['itemName'];
@@ -20,14 +16,17 @@ let divInfoClearList = document.querySelector('.alert-info');
 
 
 function alertInfo() {
-    items.length === 0 ? divInfoClearList.classList.add('alert_show') : divInfoClearList.classList.remove('alert_show');
+    if(items.length === 0){
+        divInfoClearList.classList.add('alert_show')
+    }else{
+        divInfoClearList.classList.remove('alert_show');
+    }
 };
 alertInfo(items);
 
-//генерация разметки из массива
 function generateList() {
     alertInfo(items);
-    table.innerHTML = ''; // очистка списка, для того, что бы не дублировать массив
+    table.innerHTML = '';
     for (let i = 0; i < items.length; i++) {
         let template = `
             <tr data-id=${items[i].id}>
@@ -47,9 +46,8 @@ function generateList() {
     }
 };
 
-generateList(); // загружаем товары из массива при загрузке страницы
+generateList();
 
-//генерация ID
 
 function generateId() {
     let id = '';
@@ -61,7 +59,6 @@ function generateId() {
     return id;
 }
 
-//функция которая удаляет через определенное время информационные сообщения
 
 function deleteAlertInfo() {
     setTimeout(() => {
@@ -70,7 +67,7 @@ function deleteAlertInfo() {
     }, 2500);
 }
 
-//Добавляет новую информацию в массив, который обрабатывают функции выше
+
 function addList(text, number) {
     let newItems = {
         id:generateId(),
@@ -85,7 +82,6 @@ function addList(text, number) {
 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
-// проверка строки на пустое значение, если пустое, то подстветка красным
     if (!inputName.value  || !inputPrice.value){
         inputName.classList.add('is-invalid');
         inputPrice.classList.add('is-invalid');
@@ -98,8 +94,6 @@ form.addEventListener('submit', function (e) {
     }
     deleteAlertInfo();
 });
-
-//Сортировка
 
 function sort() {
     button.classList.toggle('sort');
