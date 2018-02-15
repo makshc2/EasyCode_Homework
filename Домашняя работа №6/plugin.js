@@ -4,8 +4,6 @@ let tbody = document.querySelector('.content_item');
 let form = document.forms['addItems'];
 let inputName = form.elements['itemName'];
 let inputPrice = form.elements['itemPrice'];
-let minPrice = form.elements['minPrice'];
-let maxPrice = form.elements['maxPrice'];
 let button = document.querySelector('.sort');
 let divInfoAlert = document.querySelector('.alert_information');
 
