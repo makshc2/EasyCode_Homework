@@ -1,5 +1,4 @@
 let items = JSON.parse(localStorage.getItem('items')) || [];
-console.log(items);
 let table = document.querySelector('.table');
 let tbody = document.querySelector('.content_item');
 let form = document.forms['addItems'];
