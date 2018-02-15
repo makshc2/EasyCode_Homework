@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a712ed01-68d6-40fc-bbe4-633bc96eaf0b" name="Default" comment="Home Work #6">
+    <list default="true" id="a712ed01-68d6-40fc-bbe4-633bc96eaf0b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Домашняя Работа №5/myscript.js" afterPath="$PROJECT_DIR$/Домашняя Работа №5/myscript.js" />
+      <change beforePath="$PROJECT_DIR$/Домашняя работа №6/plugin.js" afterPath="$PROJECT_DIR$/Домашняя работа №6/plugin.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Домашняя работа №6/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="53" />
+            <state relative-caret-position="187">
+              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -30,13 +30,14 @@
       <file leaf-file-name="plugin.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Домашняя работа №6/plugin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="-2006">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="60" />
               <folding>
-                <marker date="1518704538917" expanded="true" signature="846:1216" ph="..." />
-                <marker date="1518704538917" expanded="true" signature="867:924" ph="..." />
-                <marker date="1518704538917" expanded="true" signature="946:1005" ph="..." />
-                <marker date="1518704538917" expanded="true" signature="1029:1186" ph="..." />
+                <marker date="1518708582538" expanded="true" signature="865:1235" ph="..." />
+                <marker date="1518708582538" expanded="true" signature="886:943" ph="..." />
+                <marker date="1518708582538" expanded="true" signature="965:1024" ph="..." />
+                <marker date="1518708582538" expanded="true" signature="1048:1205" ph="..." />
+                <marker date="1518708582538" expanded="true" signature="1049:1203" ph="..." />
               </folding>
             </state>
           </provider>
@@ -71,8 +72,8 @@
         <option value="$PROJECT_DIR$/Домашняя работа №4/DOM/myscript.js" />
         <option value="$PROJECT_DIR$/Домашняя работа №4/DOM Alert/style.css" />
         <option value="$PROJECT_DIR$/Домашняя Работа №5/style.css" />
-        <option value="$PROJECT_DIR$/Домашняя работа №6/plugin.js" />
         <option value="$PROJECT_DIR$/Домашняя Работа №5/myscript.js" />
+        <option value="$PROJECT_DIR$/Домашняя работа №6/plugin.js" />
       </list>
     </option>
   </component>
@@ -174,7 +175,7 @@
       <workItem from="1518347972955" duration="370000" />
       <workItem from="1518381978511" duration="217000" />
       <workItem from="1518675745961" duration="13698000" />
-      <workItem from="1518704870501" duration="605000" />
+      <workItem from="1518704870501" duration="3638000" />
     </task>
     <task id="LOCAL-00001" summary="fix bugs">
       <created>1517480470706</created>
@@ -246,11 +247,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518704575662</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Feed back Home work 5">
+      <created>1518705498620</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1518705498620</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34371000" />
+    <option name="totallyTimeSpent" value="37404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -288,7 +296,8 @@
     <MESSAGE value="feed back home work 3" />
     <MESSAGE value="feed back home work 4" />
     <MESSAGE value="Home Work #6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Work #6" />
+    <MESSAGE value="Feed back Home work 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feed back Home work 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -318,10 +327,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518704538917" expanded="true" signature="846:1216" ph="..." />
-            <marker date="1518704538917" expanded="true" signature="867:924" ph="..." />
-            <marker date="1518704538917" expanded="true" signature="946:1005" ph="..." />
-            <marker date="1518704538917" expanded="true" signature="1029:1186" ph="..." />
+            <marker date="1518708582538" expanded="true" signature="865:1235" ph="..." />
+            <marker date="1518708582538" expanded="true" signature="886:943" ph="..." />
+            <marker date="1518708582538" expanded="true" signature="965:1024" ph="..." />
+            <marker date="1518708582538" expanded="true" signature="1048:1205" ph="..." />
+            <marker date="1518708582538" expanded="true" signature="1049:1203" ph="..." />
           </folding>
         </state>
       </provider>
@@ -462,14 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №6/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя Работа №5/myscript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -486,15 +488,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №6/plugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="-2006">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="60" />
           <folding>
-            <marker date="1518704538917" expanded="true" signature="846:1216" ph="..." />
-            <marker date="1518704538917" expanded="true" signature="867:924" ph="..." />
-            <marker date="1518704538917" expanded="true" signature="946:1005" ph="..." />
-            <marker date="1518704538917" expanded="true" signature="1029:1186" ph="..." />
+            <marker date="1518708582538" expanded="true" signature="865:1235" ph="..." />
+            <marker date="1518708582538" expanded="true" signature="886:943" ph="..." />
+            <marker date="1518708582538" expanded="true" signature="965:1024" ph="..." />
+            <marker date="1518708582538" expanded="true" signature="1048:1205" ph="..." />
+            <marker date="1518708582538" expanded="true" signature="1049:1203" ph="..." />
           </folding>
         </state>
       </provider>

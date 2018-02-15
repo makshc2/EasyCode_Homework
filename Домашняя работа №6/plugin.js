@@ -1,7 +1,7 @@
 
 
 let items = JSON.parse(localStorage.getItem('items')) || [];
-
+console.log(items);
 let table = document.querySelector('.table');
 let form = document.forms['addItems'];
 let inputName = form.elements['itemName'];
@@ -123,6 +123,10 @@ function  deleteListItem(id) {
 
 }
 
+function editListItem(id, newValue){
+    console.log(id, newValue);
+}
+
 table.addEventListener('click', function (e) {
     if( e.target.classList.contains('delete-item') ){
         let parent = e.target.closest('tr');
@@ -132,6 +136,17 @@ table.addEventListener('click', function (e) {
         dangerDiv.classList.add('alert_show');
     }else if( e.target.classList.contains('edit-item') ){
         e.target.classList.toggle('fa-save');
+        let id = e.target.closest('tr').dataset.id;
+        let edit = e.target.closest('tr').querySelector('td');
+
+        if(  e.target.classList.contains('fa-save') ){
+            edit.setAttribute('contenteditable', true);
+            edit.focus();
+        }else{
+            edit.setAttribute('contenteditable', false);
+            edit.blur();
+            editListItem(id,edit.textContent);
+        }
     }
     deleteAlertInfo();
 });
