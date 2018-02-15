@@ -17,7 +17,7 @@ let divInfoClearList = document.querySelector('.alert-info');
 
 function alertInfo() {
     items.length === 0 ? divInfoClearList.classList.add('alert_show') : divInfoClearList.classList.remove('alert_show');
-}
+};
 alertInfo(items);
 
 //генерация разметки из массива
@@ -32,20 +32,17 @@ function generateList() {
                 </td>
                  <td>
                    ${items[i].price}
-                </td>
+                </td>   
+                <td>
+                    <i class ='fas fa-edit edit-item ml-2'></i>
+                    <i class ='fas fa-trash-alt delete-item ml-4'></i>
+                </td>            
             </tr>
                     `;
-
-        let iDelete = document.createElement('i');
-        iDelete.className = 'fas fa-trash-alt delete-item ml-4';
-        let iEdit = document.createElement('i');
-        iEdit.className = 'fas fa-edit edit-item ml-auto';
-
-        table.appendChild(iEdit);
-        table.appendChild(iDelete);
         table.insertAdjacentHTML('afterbegin', template);
     }
 };
+
 generateList(); // загружаем товары из массива при загрузке страницы
 
 //генерация ID
@@ -82,8 +79,6 @@ function addList(text, number) {
 }
 
 
-
-
 form.addEventListener('submit', function (e) {
     e.preventDefault();
 // проверка строки на пустое значение, если пустое, то подстветка красным
@@ -103,7 +98,7 @@ form.addEventListener('submit', function (e) {
 //Сортировка
 
 function sort() {
-    button.classList.toggle('sort')
+    button.classList.toggle('sort');
     if (button.classList.contains('sort') === true) {
         items.sort((a, b) => a.price - b.price );
     } else {
@@ -120,5 +115,29 @@ inputName.addEventListener('keyup', function (e) {
 });
 
 
+function  deleteListItem(id) {
+    for (let i = 0; i < items.length; i++) {
+        if  (items[i].id === id){
+            items.splice(i, 1);
+            break;
+        }
+    }
+    localStorage.setItem('items', JSON.stringify(items));
+    alertInfo(items);
+
+}
+
+table.addEventListener('click', function (e) {
+    if( e.target.classList.contains('delete-item') ){
+        let parent = e.target.closest('tr');
+        let id = parent.dataset.id;
+        deleteListItem(id);
+        parent.remove();
+        dangerDiv.classList.add('alert_show');
+    }else if( e.target.classList.contains('edit-item') ){
+        e.target.classList.toggle('fa-save');
+    }
+    deleteAlertInfo();
+});
 
 

@@ -82,6 +82,7 @@ function  deleteListItem(target) {
     // 2.удалить родителя
     // 3.Splice, indexOf
     let parent = target.closest('li');
+    console.log(parent);
     let index = tasks.indexOf(parent.textContent);
     tasks.splice(index, 1);
     parent.remove();
