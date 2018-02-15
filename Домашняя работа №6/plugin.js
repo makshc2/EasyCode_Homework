@@ -5,21 +5,9 @@ let form = document.forms['addItems'];
 let inputName = form.elements['itemName'];
 let inputPrice = form.elements['itemPrice'];
 let button = document.querySelector('.sort');
-let successDiv = document.querySelector('.alert-success');
-let dangerDiv = document.querySelector('.alert-danger');
-let divInfoClearList = document.querySelector('.alert-info');
-
-function alertInfo() {
-    if(items.length === 0){
-        divInfoClearList.classList.add('alert_show')
-    }else{
-        divInfoClearList.classList.remove('alert_show');
-    }
-};
-alertInfo(items);
+let divInfoAlert = document.querySelector('.alert_information');
 
 function generateList() {
-    alertInfo(items);
     table.innerHTML = '';
     for (let i = 0; i < items.length; i++) {
         let template = `
@@ -52,13 +40,6 @@ function generateId() {
     return id;
 }
 
-function deleteAlertInfo() {
-    setTimeout(() => {
-        dangerDiv.classList.remove('alert_show');
-        successDiv.classList.remove('alert_show');
-    }, 2500);
-}
-
 function addList(text, number) {
     let newItems = {
         id:generateId(),
@@ -79,10 +60,8 @@ form.addEventListener('submit', function (e) {
         inputName.classList.remove('is-invalid');
         inputPrice.classList.remove('is-invalid');
         addList(inputName.value, inputPrice.value);
-        successDiv.classList.add('alert_show'); //выводит сообщение Item added success
         form.reset();
     }
-    deleteAlertInfo();
 });
 
 function sort() {
@@ -110,12 +89,39 @@ function  deleteListItem(id) {
         }
     }
     localStorage.setItem('items', JSON.stringify(items));
-    alertInfo(items);
+
+    message({
+        text: 'Item delete success!',
+        cssClass: 'alert-warning',
+        timeout: 3500
+    });
 
 }
 
 function editListItem(id, newValue){
-    console.log(id, newValue);
+    for (let i = 0; i < items.length; i++) {
+        if( items[i].id === id ){
+            items[i].name = newValue;
+            break;
+        }
+    }
+    localStorage.setItem('items', JSON.stringify(items));
+
+    message({
+        text: 'Item updated success!',
+        cssClass: 'alert-success',
+        timeout: 3500
+    });
+
+}
+
+function message(settings) {
+    divInfoAlert.classList.add(settings.cssClass);
+    divInfoAlert.textContent = settings.text;
+    divInfoAlert.classList.add('show');
+    setTimeout(function () {
+        divInfoAlert.classList.remove('show');
+    }, settings.timeout);
 }
 
 table.addEventListener('click', function (e) {
@@ -129,7 +135,6 @@ table.addEventListener('click', function (e) {
         e.target.classList.toggle('fa-save');
         let id = e.target.closest('tr').dataset.id;
         let edit = e.target.closest('tr').querySelector('td');
-
         if(  e.target.classList.contains('fa-save') ){
             edit.setAttribute('contenteditable', true);
             edit.focus();
@@ -139,7 +144,6 @@ table.addEventListener('click', function (e) {
             editListItem(id,edit.textContent);
         }
     }
-    deleteAlertInfo();
 });
 
 

@@ -1,8 +1,8 @@
-.alert-success, .alert-danger, .alert-info{
+.alert_information{
     display: none;
 }
 
-.alert_show{
+.alert_information.show{
     display: flex;
     justify-content: center;
 }
