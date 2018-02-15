@@ -1,5 +1,3 @@
-
-
 let items = JSON.parse(localStorage.getItem('items')) || [];
 console.log(items);
 let table = document.querySelector('.table');
@@ -10,8 +8,6 @@ let button = document.querySelector('.sort');
 let successDiv = document.querySelector('.alert-success');
 let dangerDiv = document.querySelector('.alert-danger');
 let divInfoClearList = document.querySelector('.alert-info');
-
-
 
 function alertInfo() {
     if(items.length === 0){
@@ -46,7 +42,6 @@ function generateList() {
 
 generateList();
 
-
 function generateId() {
     let id = '';
     let words = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';
@@ -57,14 +52,12 @@ function generateId() {
     return id;
 }
 
-
 function deleteAlertInfo() {
     setTimeout(() => {
         dangerDiv.classList.remove('alert_show');
         successDiv.classList.remove('alert_show');
     }, 2500);
 }
-
 
 function addList(text, number) {
     let newItems = {
@@ -76,7 +69,6 @@ function addList(text, number) {
     localStorage.setItem('items', JSON.stringify(items));
     generateList();
 }
-
 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
@@ -109,7 +101,6 @@ inputName.addEventListener('keyup', function (e) {
         inputPrice.classList.remove('is-invalid');
     }
 });
-
 
 function  deleteListItem(id) {
     for (let i = 0; i < items.length; i++) {
