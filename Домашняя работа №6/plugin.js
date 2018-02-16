@@ -12,7 +12,7 @@ let divInfoAlert = document.querySelector('.alert_information');
 function generateList(price = items) {
     let newItem = price;
     tbody.innerHTML = '';
-    for (let i = 0; i < newItem.length; i++) {
+    for ( let i = 0; i < newItem.length; i++ ) {
         let template = `
             <tr data-id=${newItem[i].id}>
                 <td>
@@ -94,7 +94,7 @@ function filterCollection() {
     } else{
         minPrice.classList.remove('is-invalid');
         maxPrice.classList.remove('is-invalid');
-        for (let i = 0; i < items.length; i++) {
+        for ( let i = 0; i < items.length; i++ ) {
             let value = items[i].price;
             if( value >= min && value <= max ){
                 arrayPrice.push(items[i]);
@@ -105,7 +105,7 @@ function filterCollection() {
 }
 
 
-inputName.addEventListener('keyup', function (e) {
+inputName.addEventListener('keyup', function(e) {
     if( inputName.value){
         inputName.classList.remove('is-invalid');
         inputPrice.classList.remove('is-invalid');
@@ -113,7 +113,7 @@ inputName.addEventListener('keyup', function (e) {
 });
 
 function  deleteListItem(id) {
-    for (let i = 0; i < items.length; i++) {
+    for ( let i = 0; i < items.length; i++ ) {
         if  (items[i].id === id){
             items.splice(i, 1);
             break;
@@ -128,8 +128,8 @@ function  deleteListItem(id) {
 }
 
 function editListItem(id, newValue){
-    for (let i = 0; i < items.length; i++) {
-        if( items[i].id === id ){
+    for ( let i = 0; i < items.length; i++ ) {
+        if(items[i].id === id){
             items[i].name = newValue;
             break;
         }
@@ -153,16 +153,16 @@ function message(settings) {
 }
 
 table.addEventListener('click', function (e) {
-    if( e.target.classList.contains('delete-item') ){
+    if(e.target.classList.contains('delete-item')){
         let parent = e.target.closest('tr');
         let id = parent.dataset.id;
         deleteListItem(id);
         parent.remove();
-    }else if( e.target.classList.contains('edit-item') ){
+    }else if(e.target.classList.contains('edit-item')){
         e.target.classList.toggle('fa-save');
         let id = e.target.closest('tr').dataset.id;
         let edit = e.target.closest('tr').querySelector('td');
-        if(  e.target.classList.contains('fa-save') ){
+        if(e.target.classList.contains('fa-save')){
             edit.setAttribute('contenteditable', true);
             edit.focus();
         }else{
