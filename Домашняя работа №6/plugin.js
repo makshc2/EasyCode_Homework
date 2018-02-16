@@ -87,12 +87,19 @@ function filterCollection() {
     let min = +minPrice.value;
     let max = +maxPrice.value;
     if(!min && !max) return generateList();
-    if(min > max)  return; 
-    for (let i = 0; i < items.length; i++) {
-        let value = items[i].price;
-        if( value >= min && value <= max ){
-            arrayPrice.push(items[i]);
-        }
+    if(min > max){
+        minPrice.classList.add('is-invalid');
+        maxPrice.classList.add('is-invalid'); 
+        return;
+    } else{
+        minPrice.classList.remove('is-invalid');
+        maxPrice.classList.remove('is-invalid');
+        for (let i = 0; i < items.length; i++) {
+            let value = items[i].price;
+            if( value >= min && value <= max ){
+                arrayPrice.push(items[i]);
+            }
+        }; 
     }
     generateList(arrayPrice);
 }
