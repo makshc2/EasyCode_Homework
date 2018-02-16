@@ -4,19 +4,22 @@ let tbody = document.querySelector('.content_item');
 let form = document.forms['addItems'];
 let inputName = form.elements['itemName'];
 let inputPrice = form.elements['itemPrice'];
+let minPrice = document.getElementById('minPrice');   
+let maxPrice = document.getElementById('maxPrice');
 let button = document.querySelector('.sort');
 let divInfoAlert = document.querySelector('.alert_information');
 
-function generateList() {
+function generateList(price = items) {
+    let newItem = price;
     tbody.innerHTML = '';
-    for (let i = 0; i < items.length; i++) {
+    for (let i = 0; i < newItem.length; i++) {
         let template = `
-            <tr data-id=${items[i].id}>
+            <tr data-id=${newItem[i].id}>
                 <td>
-                  ${items[i].name}
+                  ${newItem[i].name}
                 </td>
                  <td>
-                   ${items[i].price}
+                   ${newItem[i].price}
                    <span>
                         <i class ='fas fa-edit edit-item ml-2'></i>
                         <i class ='fas fa-trash-alt delete-item ml-1'></i>
@@ -78,6 +81,22 @@ function sort() {
     }
     generateList();
 }
+
+function filterCollection() {
+    let arrayPrice = [];
+    let min = +minPrice.value;
+    let max = +maxPrice.value;
+    if(!min && !max) return generateList();
+    if(min > max)  return; 
+    for (let i = 0; i < items.length; i++) {
+        let value = items[i].price;
+        if( value >= min && value <= max ){
+            arrayPrice.push(items[i]);
+        }
+    }
+    generateList(arrayPrice);
+}
+
 
 inputName.addEventListener('keyup', function (e) {
     if( inputName.value){
@@ -146,5 +165,4 @@ table.addEventListener('click', function (e) {
         }
     }
 });
-
 
