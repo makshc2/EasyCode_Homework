@@ -106,7 +106,7 @@ function filterCollection() {
 
 
 inputName.addEventListener('keyup', function(e) {
-    if( inputName.value){
+    if(inputName.value){
         inputName.classList.remove('is-invalid');
         inputPrice.classList.remove('is-invalid');
     }
