@@ -172,4 +172,3 @@ table.addEventListener('click', function (e) {
         }
     }
 });
-
