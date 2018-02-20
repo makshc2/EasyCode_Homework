@@ -306,6 +306,7 @@ multiply(10);
 //задача №7
 
 const module = (function () {
+
     let string = '';
 
     function setString(result) {
@@ -339,3 +340,49 @@ module.setString(1234567890);
 module.getString();
 module.getStringLength();
 module.getStringReverse();
+
+//задача №8
+
+const calculator = (function () {
+
+    let result;
+
+    function setNum(value) {
+        result = value;
+    }
+    function plusNum(value) {
+        return result += value;
+    }
+    function minusNum(value) {
+        return result -= value;
+    }
+    function multiplyNum(value) {
+        return result *= value;
+    }
+    function divideNum(value) {
+        return result /= value;
+    }
+    function squareNum(value) {
+        return result = value * value;
+    }
+    function getNum() {
+        console.log(result.toFixed(2));
+    }
+    return{
+        setNum: setNum,
+        plusNum: plusNum,
+        minusNum: minusNum,
+        multiplyNum: multiplyNum,
+        divideNum: divideNum,
+        squareNum: squareNum,
+        getNum: getNum
+    }
+
+})();
+
+calculator.setNum(10);
+calculator.plusNum(5);
+calculator.multiplyNum(2);
+calculator.getNum();
+
+calculator.setNum(10).squareNum(2).getNum();
