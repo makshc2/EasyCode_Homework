@@ -58,7 +58,7 @@ object.getHeightCount();
 const numerator = {
     value: 1,
     double: function () {
-        this.value = this.value* 2;
+        this.value = this.value * 2;
         return this;
     },
     plusOne: function () {
@@ -318,11 +318,9 @@ const module = (function () {
     }
     function getString() {
         return string;
-
     }
     function getStringLength() {
         return string.length;
-
     }
     function getStringReverse() {
         return string.split('').reverse().join('');
