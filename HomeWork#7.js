@@ -142,10 +142,47 @@ details.getItems();
 
 let sizes = {
     width: 5,
-    height: 10,
-    getSquare: function () {
-        return this.width * this.height;
-    }
+    height: 10
 }
+getSquare = function () {
+    return this.width * this.height;
+};
 
-getSquare();
+getSquare.call(sizes);
+
+//задача №11
+
+let numbers = [4, 12, 0, 10, -2, 4];
+
+Math.min.apply(null, numbers);
+
+//задача №12
+
+const element = {
+        height: '15px',
+        marginTop: '5px',
+        marginBottom: '5px',
+        getFullHeight: function () {
+            return parseInt(this.height) + parseInt(this.marginTop) + parseInt(this.marginBottom);
+        }
+    },
+    block = {
+        height:'5px',
+        marginTop: '3px',
+        marginBottom: '3px'
+    }
+
+element.getFullHeight();
+element.getFullHeight.call(block);
+
+//задача №13
+
+let element = {
+    height: 25,
+    getHeight: function () {
+        return this.height;
+    }
+};
+
+let getElementHeight = element.getHeight.bind(element);
+getElementHeight();

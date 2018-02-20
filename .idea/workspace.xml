@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a712ed01-68d6-40fc-bbe4-633bc96eaf0b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/HomeWork#7.js" afterPath="$PROJECT_DIR$/HomeWork#7.js" />
-      <change beforePath="$PROJECT_DIR$/Домашняя работа №6/plugin.js" afterPath="$PROJECT_DIR$/Домашняя работа №6/plugin.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +20,8 @@
       <file leaf-file-name="HomeWork#7.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomeWork#7.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="143" column="13" lean-forward="true" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+            <state relative-caret-position="458">
+              <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,8 +114,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,7 +195,8 @@
       <workItem from="1519023238548" duration="1135000" />
       <workItem from="1519024654482" duration="943000" />
       <workItem from="1519025623507" duration="4726000" />
-      <workItem from="1519059831088" duration="30000" />
+      <workItem from="1519059831088" duration="777000" />
+      <workItem from="1519109531693" duration="2488000" />
     </task>
     <task id="LOCAL-00001" summary="fix bugs">
       <created>1517480470706</created>
@@ -305,11 +303,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518728594521</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Home work 7">
+      <created>1519059935885</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1519059935885</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67322000" />
+    <option name="totallyTimeSpent" value="70557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -349,7 +354,8 @@
     <MESSAGE value="Home Work #6" />
     <MESSAGE value="Feed back Home work 5" />
     <MESSAGE value="Home work 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home work 6" />
+    <MESSAGE value="Home work 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home work 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -358,6 +364,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HomeWork#7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork#7.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -649,8 +663,8 @@
     <entry file="file://$PROJECT_DIR$/index.js" />
     <entry file="file://$PROJECT_DIR$/HomeWork#7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="143" column="13" lean-forward="true" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+        <state relative-caret-position="458">
+          <caret line="188" column="0" lean-forward="true" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
           <folding />
         </state>
       </provider>
