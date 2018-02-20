@@ -20,8 +20,8 @@
       <file leaf-file-name="HomeWork#7.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomeWork#7.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="295" column="6" lean-forward="true" selection-start-line="295" selection-start-column="6" selection-end-line="295" selection-end-column="6" />
+            <state relative-caret-position="424">
+              <caret line="338" column="19" lean-forward="true" selection-start-line="338" selection-start-column="19" selection-end-line="338" selection-end-column="19" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -198,7 +198,7 @@
       <workItem from="1519024654482" duration="943000" />
       <workItem from="1519025623507" duration="4726000" />
       <workItem from="1519059831088" duration="777000" />
-      <workItem from="1519109531693" duration="13736000" />
+      <workItem from="1519109531693" duration="18718000" />
     </task>
     <task id="LOCAL-00001" summary="fix bugs">
       <created>1517480470706</created>
@@ -319,11 +319,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519112042229</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Home work 7 замыкания">
+      <created>1519125530436</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1519125530436</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81805000" />
+    <option name="totallyTimeSpent" value="86787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -365,7 +372,8 @@
     <MESSAGE value="Home work 6" />
     <MESSAGE value="Home work 7" />
     <MESSAGE value="Home work 7 this" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home work 7 this" />
+    <MESSAGE value="Home work 7 замыкания" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home work 7 замыкания" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -685,8 +693,8 @@
     <entry file="file://$PROJECT_DIR$/index.js" />
     <entry file="file://$PROJECT_DIR$/HomeWork#7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="295" column="6" lean-forward="true" selection-start-line="295" selection-start-column="6" selection-end-line="295" selection-end-column="6" />
+        <state relative-caret-position="424">
+          <caret line="338" column="19" lean-forward="true" selection-start-line="338" selection-start-column="19" selection-end-line="338" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

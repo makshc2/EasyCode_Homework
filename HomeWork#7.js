@@ -305,3 +305,37 @@ multiply(10);
 
 //задача №7
 
+const module = (function () {
+    let string = '';
+
+    function setString(result) {
+        if(typeof result === 'number'){
+            string = '' + result;
+        }else{
+            string = result;
+        }
+    }
+    function getString() {
+        return string;
+
+    }
+    function getStringLength() {
+        return string.length;
+
+    }
+    function getStringReverse() {
+        return string.split('').reverse().join('');
+    }
+    return{
+        setString,
+        getString,
+        getStringLength,
+        getStringReverse
+    }
+
+})();
+
+module.setString(1234567890);
+module.getString();
+module.getStringLength();
+module.getStringReverse();
