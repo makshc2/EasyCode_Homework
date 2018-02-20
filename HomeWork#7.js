@@ -1,3 +1,4 @@
+//this
 //задача №1
 
 const rectangle = {
@@ -77,6 +78,7 @@ numerator
     .minusOne();
 
 //Задача №6
+
 // Данная запись равносильна const user = {...} и const otherUser = {...} т.е. два обьекта.
 const user = {name: 'Abraham'},
       otherUser = {
@@ -186,3 +188,120 @@ let element = {
 
 let getElementHeight = element.getHeight.bind(element);
 getElementHeight();
+
+//closure
+//задача №1
+
+getBigName(userName);
+
+function getBigName(name) {
+    name = name + '';
+    return name.toUpperCase();
+}
+
+var userName = 'Ivan';
+// результатом вызова этой функции будет 'UNDEFINED', т.к. переменная name не обьявлена,
+// функция ее не находит в своем окружении - начинает искать ее снаружи функции, находит userName, но т.к. она обявлена
+// уже после вызова функции результатом будет undefined, к нему применится верхний регистр.
+
+//задача №2
+
+function test() {
+    var name = 'Vasiliy';
+    return getBigName(userName);
+}
+
+function getBigName(name) {
+    name = name + '';
+    return name.toUpperCase();
+}
+
+var userName = 'Ivan';
+test();
+
+//каждая функция создает свое лексическое окружение.Функция test своим результатом возвращет функцию getBigName,
+// аргумент userName в своем окружении она не находит, и начинает его искать снаружи, там она находит userName,
+// принимает его и передает в getBigName(user), а там применяется метод toUpperCase(); и выводится 'IVAN'
+
+//задача №3
+
+var food = 'cucumber';
+
+(function () {
+    var food = 'bread';
+    getFood();
+})();
+
+function getFood() {
+    console.log(food);
+}
+
+//две функции создают свое лексическое окружение, при вызове функция getFood ищит переменную food, не находит внутри
+// своего окруженияб начинает искать его в окружении где была создана функция и находит переменную food = 'cucumber'.
+// переменную food = 'bread' из другого лексического окружения функция getFood не видит.
+
+//задача №4
+
+var dollar,
+    getDollar;
+
+(function () {
+    var dollar = 0;
+    getDollar = function () {
+        return dollar;
+    }
+}());
+
+dollar = 30;
+getDollar();
+
+// результатом вызова функции будет 0, т.к. getDollar возвращает переменную dollar, внутри своего окружения не находит,
+// поднимается выше и находит переменную dollar внутри другой функции в окружении которой была вызвана функция getDollar.
+// если бы переменная dollar не была обьявленна внутри анонимной функции, то функция getDollar поднялась бы еще выше по
+// области видимости и нашла бы переменную var dollar, которой ниже было присвоено значение 30 и вывело бы 30.
+
+//задача №5
+
+var greet = 'Hello';
+
+(function () {
+    var text = 'World';
+    console.log(greet + text);
+}());
+
+console.log(greet + text);
+
+// Функция будет искать перемнную greet сначала в своем окружении и когда не найдет -
+// будет искать в окружении в котором создана. Найдет greet = 'Hello' и выдаст результат 'HelloWorld'.
+// Вторая консоль выдаст ошибку т.к. не найдет переменную text, потому, что она недоступна из этого лексического
+// окружения.
+
+//задача №5
+
+let minus = (a = 0) => (b = 0) => a - b;
+
+minus(10)(6);
+minus(5)(6);
+minus(10)();
+minus()(6);
+minus()();
+
+//задача №6
+
+function multiplyMaker(a) {
+    let num = a;
+    return function (b) {
+        num *= b;
+        return num;
+    };
+}
+
+const multiply = multiplyMaker(2);
+
+multiply(2);
+multiply(1);
+multiply(3);
+multiply(10);
+
+//задача №7
+
