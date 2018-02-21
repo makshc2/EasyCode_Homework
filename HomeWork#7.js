@@ -347,21 +347,27 @@ const calculator = (function () {
 
     function setNum(value) {
         result = value;
+        return this;
     }
     function plusNum(value) {
-        return result += value;
+         result += value;
+         return this;
     }
     function minusNum(value) {
-        return result -= value;
+        result -= value;
+        return this;
     }
     function multiplyNum(value) {
-        return result *= value;
+        result *= value;
+        return this;
     }
     function divideNum(value) {
-        return result /= value;
+        result /= value;
+        return this;
     }
     function squareNum(value) {
-        return result = value * value;
+        result *= result;
+        return this;
     }
     function getNum() {
         console.log(result.toFixed(2));
