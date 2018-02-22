@@ -2,6 +2,7 @@
 
 const buttons = document.querySelectorAll('[data-time]');
 const inputMin = document.getElementById('minutes');
+const stop = document.querySelector('.stop_button');
 
 const timer = (function () {
     let countdown,
@@ -70,7 +71,7 @@ const timer = (function () {
     }
 
     function stop() {
-
+        
     }
 
     function playSound() {

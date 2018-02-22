@@ -16,12 +16,13 @@
       <button data-time="3600" class="timer__button">Lunch Break</button>
       <form name="customForm" id="custom">
         <input type="number" name="minutes" placeholder="Enter Minutes" id="minutes">
-        <input type="submit" value="Enter" class="pointer"  onclick="setTime(event)">
+        <input type="submit" value="Enter" class="pointer"  onclick="setTime(event);">
       </form>
     </div>
     <div class="display">
       <h1 class="display__time-left"></h1>
       <p class="display__end-time"></p>
+      <input type="submit" value="Enter" class="stop_button" onclick="stopTimer();">
     </div>
   </div>
 
