@@ -51,12 +51,13 @@ const timer = (function () {
         const hour = (Math.floor(seconds / 3600)) % 24;
         const day = (Math.floor(seconds / 86400));
         const display =
-        `${day < 10 ? '0' : ''}${day}
-        :${hour < 10 ? '0' : ''}${hour} 
-        :${min < 10 ? '0' : ''}${min}
-        :${sec < 10 ? '0' : ''}${sec}`;
-        document.title = display;
-        timerDisplay.textContent = display;
+            `${day < 10 ? '0' : ''}${day}
+             ${'days'}
+            :${hour < 10 ? '0' : ''}${hour} 
+            :${min < 10 ? '0' : ''}${min}
+            :${sec < 10 ? '0' : ''}${sec}`;
+            document.title = display;
+            timerDisplay.textContent = display;
     }
 
     function displayEndTime(timestamp) {
