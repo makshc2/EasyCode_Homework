@@ -71,7 +71,7 @@ const timer = (function () {
     }
 
     function stop() {
-        
+
     }
 
     function playSound() {
