@@ -16,6 +16,7 @@ const timer = (function () {
         if (settings.alarmSound){
             alarmSound = new Audio(settings.alarmSound);
         }
+        return this;
     }
 
     function start(seconds) {
@@ -87,8 +88,8 @@ const timer = (function () {
 timer.init({
     timeLeftSelector: '.display__time-left',
     timeEndSelector: '.display__end-time',
-    alarmSound: 'audio/bell.mp3'
-});
+    alarmSound: 'audio/bell.mp3',
+}).start();
 
 function startTimer(e) {
     const seconds = parseInt(this.dataset.time);
