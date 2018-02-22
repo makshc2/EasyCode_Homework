@@ -1,6 +1,7 @@
 // timer
 
 const buttons = document.querySelectorAll('[data-time]');
+const inputMin = document.getElementById('minutes');
 
 const timer = (function () {
     let countdown,
@@ -45,9 +46,15 @@ const timer = (function () {
     }
 
     function displayTimeLeft(seconds) {
-        const minutes = Math.floor(seconds / 60);
-        const reminderSeconds = seconds % 60;
-        const display = `${minutes}:${reminderSeconds < 10 ? '0' : ''}${reminderSeconds}`;
+        const sec = seconds % 60;
+        const min = (Math.floor(seconds / 60)) % 60;
+        const hour = (Math.floor(seconds / 3600)) % 24;
+        const day = (Math.floor(seconds / 86400));
+        const display =
+        `${day < 10 ? '0' : ''}${day}
+        :${hour < 10 ? '0' : ''}${hour} 
+        :${min < 10 ? '0' : ''}${min}
+        :${sec < 10 ? '0' : ''}${sec}`;
         document.title = display;
         timerDisplay.textContent = display;
     }
@@ -74,9 +81,7 @@ const timer = (function () {
         stop
     }
 
-
 }());
-
 
 timer.init({
     timeLeftSelector: '.display__time-left',
@@ -87,5 +92,15 @@ timer.init({
 function startTimer(e) {
     const seconds = parseInt(this.dataset.time);
     timer.start(seconds);
+
 }
+
+function setTime(e) {
+    e.preventDefault();
+    let minute = +inputMin.value;
+    if ((minute ^ 0) !== minute || minute === 0 || minute === '') return alert('Please init minute');
+    timer.start(minute * 60);
+
+}
+
 buttons.forEach(btn => btn.addEventListener('click', startTimer));
