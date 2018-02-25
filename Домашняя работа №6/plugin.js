@@ -1,20 +1,19 @@
-let items = JSON.parse(localStorage.getItem('items')) || [];
-let table = document.querySelector('.table');
-let tbody = document.querySelector('.content_item');
-let form = document.forms['addItems'];
-let inputName = form.elements['itemName'];
-let inputPrice = form.elements['itemPrice'];
-let minPrice = document.getElementById('minPrice');   
-let maxPrice = document.getElementById('maxPrice');
-let button = document.querySelector('.sort');
-let divInfoAlert = document.querySelector('.alert_information');
+const items = JSON.parse(localStorage.getItem('items')) || [];
+const table = document.querySelector('.table');
+const tbody = document.querySelector('.content_item');
+const form = document.forms['addItems'];
+const inputName = form.elements['itemName'];
+const inputPrice = form.elements['itemPrice'];
+const minPrice = document.getElementById('minPrice');
+const maxPrice = document.getElementById('maxPrice');
+const button = document.querySelector('.sort');
+const divInfoAlert = document.querySelector('.alert_information');
 
 function generateList(price = items) {
     let newItem = price;
     tbody.innerHTML = '';
     for ( let i = 0; i < newItem.length; i++ ) {
-        let template = `
-            <tr data-id=${newItem[i].id}>
+        let template = `<tr data-id=${newItem[i].id}>
                 <td>
                   ${newItem[i].name}
                 </td>
@@ -25,8 +24,7 @@ function generateList(price = items) {
                         <i class ='fas fa-trash-alt delete-item ml-1'></i>
                     </span>
                 </td>          
-            </tr>
-                    `;
+            </tr>`;
         tbody.insertAdjacentHTML('afterbegin', template);
     }
 }
@@ -35,7 +33,7 @@ generateList();
 
 function generateId() {
     let id = '';
-    let words = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';
+    const words = '0123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';
     for( let i = 0; i < 15; i++){
         let position = Math.floor(Math.random()*words.length);
         id += words[position];
@@ -103,7 +101,6 @@ function filterCollection() {
     }
     generateList(arrayPrice);
 }
-
 
 inputName.addEventListener('keyup', function(e) {
     if(inputName.value){

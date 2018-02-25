@@ -291,8 +291,7 @@ minus()();
 function multiplyMaker(a) {
     let num = a;
     return function (b) {
-        num *= b;
-        return num;
+        return num *= b;
     };
 }
 
