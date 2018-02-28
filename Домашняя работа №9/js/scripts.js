@@ -6,7 +6,7 @@ class VideoPlayer {
         this.progressBar = this.progress.querySelector('.progress__filled');
         this.toggle = this.player.querySelector('.toggle');
         this.skipButtons = this.player.querySelectorAll('[data-skip]');
-        this.ranges = this.player.querySelectorAll('player__slider');
+        this.ranges = this.player.querySelectorAll('.player__slider');
     }
 
     init(){
