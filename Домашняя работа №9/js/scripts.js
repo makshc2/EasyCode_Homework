@@ -15,12 +15,12 @@ class VideoPlayer {
 
     events(){
         this.video.addEventListener('click', e => this.togglePlay(e));
+        this.video.addEventListener('timeupdate', e => this.updateBar(e));
         this.toggle.addEventListener('click', e => this.togglePlay(e));
-        this.video.addEventListener('timeupdate', e => this.clickedBar(e));
         this.ranges.forEach(range => range.addEventListener('change', e => this.handleRangeUpdate(e)));
         this.ranges.forEach(range => range.addEventListener('mousemove', e => this.handleRangeUpdate(e)));
         this.skipButtons.forEach(btn => btn.addEventListener('click', e => this.skip(e)));
-        this.progress.addEventListener('click', e => this.updateBar(e));
+        this.progress.addEventListener('click', e => this.clickedBar(e));
     }
 
     togglePlay(){
@@ -49,5 +49,3 @@ class VideoPlayer {
 
 const video = new VideoPlayer();
 video.init();
-
-console.log(video);
