@@ -40,6 +40,7 @@ class VideoPlayer {
 
     clickedBar(e){
         this.video.currentTime = (e.offsetX / this.progress.offsetWidth) * this.video.duration;
+        console.log(this.video.currentTime);
     }
 
     skip(e){
