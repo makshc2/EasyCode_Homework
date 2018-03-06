@@ -35,7 +35,7 @@ class VideoPlayer {
 
     updateBar(e){
         const percent = (this.video.currentTime / this.video.duration) * 100;
-        this.progressBar.style.flexBasis = `${percent}`;
+        this.progressBar.style.flexBasis = `${percent}%`;
     }
 
     clickedBar(e){
