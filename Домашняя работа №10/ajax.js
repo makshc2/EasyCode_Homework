@@ -34,7 +34,7 @@ const ajax = (function() {
     }
 
     return{
-        send: send
+        send
     }
 
 })();

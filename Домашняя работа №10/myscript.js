@@ -17,10 +17,10 @@ const infoAlert = document.getElementById('infoAlert');
 
 function getTemplate(object) {
     const template = `<li data-id=${object.id} class="${object.completed ? "bg-success" : "bg-danger"} list-group-item d-flex align-items-center" >
-            <span class="taskName">${object.title}</span>
-            <span class="management ml-auto">
-                <i class="fas fa-edit edit-itm editItem"></i>
-                <i class="fas fa-trash ml-2 deleteItem"></i>
+            <span class="task_name">${object.title}</span>
+            <span class="fa_icons ml-auto">
+                <i class="fas fa-edit edit-itm edit_item"></i>
+                <i class="fas fa-trash ml-2 delete_item"></i>
             </span>
         </li>`;
     return template;
@@ -70,7 +70,7 @@ function deleteListItem(item) {
 function editListItem(item) {
     const parent = item.closest('li');
     const taskId = parent.dataset['id'];
-    const content = parent.querySelector('.taskName');
+    const content = parent.querySelector('.task_name');
 
     if (item.classList.contains('fa-save')){
         content.setAttribute('contenteditable', true);
@@ -140,10 +140,10 @@ form.addEventListener('submit', function (e) {
 ul.addEventListener('click', function (e) {
     const parent = e.target.closest('li');
 
-    if (e.target.classList.contains('editItem')){
+    if (e.target.classList.contains('edit_item')){
         e.target.classList.toggle('fa-save');
         editListItem(e.target);
-    } else if (e.target.classList.contains('deleteItem')){
+    } else if (e.target.classList.contains('delete_item')){
         parent.remove();
         deleteListItem(e.target);
     }
