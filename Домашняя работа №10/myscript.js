@@ -1,110 +1,151 @@
-
-let tasks = [
-  "Выучить Java Script",
-  "Выучить Angular 4",
-  "Сходить на Kharkiv CSS#3",
-  "Выучить функции",
-];
-
-
-let ul = document.querySelector('.list-group');
-let form = document.forms['addTodoItem'];
-let inputText = form.elements['todoText'];
-let successDiv = document.querySelector('.alert-success');
-let dangerDiv = document.querySelector('.alert-danger');
-let clearListDiv = document.querySelector('.alert-danger_clearlist');
-let divInfoClearList = document.querySelector('.alert-info');
-
-
-function alertInfo() {
-    if(tasks.length === 0){
-        divInfoClearList.classList.add('alert_show')
-    }else{
-        divInfoClearList.classList.remove('alert_show');
+ajax.send({
+    method: 'GET',
+    url:'https://jsonplaceholder.typicode.com/todos',
+    success: function (res) {
+        let tasks = JSON.parse(res);
+        generateList(tasks);
+    },
+    error: function (err) {
+        console.log(err);
     }
-};
-alertInfo(tasks);
-
-
-function deleteAlertInfo() {
-    setTimeout(() => {
-        clearListDiv.classList.remove('alert_show');
-        dangerDiv.classList.remove('alert_show');
-        successDiv.classList.remove('alert_show');
-    }, 2500);
-}
-
-
-function listTemplate(task) {
-    alertInfo(tasks);
-    let li = document.createElement('li');
-    li.textContent = task;
-    li.className = 'list-group-item d-flex align-items-center';
-    let iDelete = document.createElement('i');
-    iDelete.className = 'fas fa-trash-alt delete-item ml-auto';
-    li.appendChild(iDelete);
-    return li;
-}
-
-
-function clearList() {
-    ul.innerHTML = '';
-    tasks.splice(0, tasks.length);
-    alertInfo(tasks);
-    clearListDiv.classList.add('alert_show');
-    deleteAlertInfo();
-}
-
-
-function generateList(tasksArray) {
-    ul.innerHTML = '';
-    for ( let i = 0; i < tasks.length; i++ ) {
-        let li = listTemplate (tasksArray[i]);
-        ul.appendChild(li);
-    }
-}
-
-
-function addList(list) {
-    tasks.unshift(list);
-    ul.insertAdjacentElement('afterbegin',listTemplate(inputText.value));
-}
-
-function  deleteListItem(target) {
-    let parent = target.closest('li');
-    console.log(parent);
-    let index = tasks.indexOf(parent.textContent);
-    tasks.splice(index, 1);
-    parent.remove();
-    alertInfo(tasks);
-}
-
-ul.addEventListener('click', function(e) {
-    if( e.target.classList.contains('delete-item') ){
-        deleteListItem(e.target);
-        dangerDiv.classList.add('alert_show');
-    }
-    deleteAlertInfo();
 });
+
+const ul = document.querySelector('.list-group');
+const form = document.forms['addTodoItem'];
+const inputText = form.elements['todoText'];
+const infoAlert = document.getElementById('infoAlert');
+
+function getTemplate(object) {
+    const template = `<li data-id=${object.id} class="${object.completed ? "bg-success" : "bg-danger"} list-group-item d-flex align-items-center" >
+            <span class="taskName">${object.title}</span>
+            <span class="management ml-auto">
+                <i class="fas fa-edit edit-itm editItem"></i>
+                <i class="fas fa-trash ml-2 deleteItem"></i>
+            </span>
+        </li>`;
+    return template;
+}
+
+function message(settings) {
+    infoAlert.classList.toggle('d-none');
+    infoAlert.classList.add(settings.cssClass);
+    infoAlert.textContent = settings.text;
+    setTimeout(function () {
+        infoAlert.classList.toggle('d-none');
+        infoAlert.classList.toggle(settings.cssClass)
+    }, settings.timeout);
+}
+
+function generateList(response) {
+    ul.innerHTML = '';
+    for (let i = 0; i < response.length; i++) {
+        ul.insertAdjacentHTML('afterbegin', getTemplate(response[i]));
+    }
+}
+
+function generateListTask(object) {
+    ul.insertAdjacentHTML('afterbegin', getTemplate(object));
+}
+
+function deleteListItem(item) {
+    const taskId = item.closest('li').dataset['id'];
+
+    ajax.send({
+        method: 'DELETE',
+        url:`https://jsonplaceholder.typicode.com/todos/${taskId}`,
+        success: function (res) {
+            message({
+                text: 'Task has been removed success!',
+                cssClass: 'alert-warning',
+                timeout: 2000
+            });
+        },
+        error: function (err) {
+            console.log(err)
+        }
+    });
+
+}
+
+function editListItem(item) {
+    const parent = item.closest('li');
+    const taskId = parent.dataset['id'];
+    const content = parent.querySelector('.taskName');
+
+    if (item.classList.contains('fa-save')){
+        content.setAttribute('contenteditable', true);
+        content.focus();
+    } else {
+        content.setAttribute('contenteditable', false);
+
+        ajax.send({
+            method: 'PATCH',
+            url: `https://jsonplaceholder.typicode.com/todos/${taskId}`,
+            data: JSON.stringify({
+                title: content.textContent,
+                completed: parent.classList.contains('bg-success')
+            }),
+            headers: {
+                "Content-type": "application/json; charset=UTF-8"
+            },
+            success: function (res) {
+                console.log(res)
+            },
+            error: function (err) {
+                console.log(err)
+            }
+        });
+
+    }
+}
+
 form.addEventListener('submit', function (e) {
     e.preventDefault();
-    if (!inputText.value){
-        inputText.classList.add('is-invalid')
-    }else {
+
+    if (!inputText.value) {
+        inputText.classList.add('is-invalid');
+    } else {
+        let data = {
+            title: inputText.value,
+            completed: false
+        };
+
+        ajax.send({
+            method: 'POST',
+            url:'https://jsonplaceholder.typicode.com/todos',
+            data: JSON.stringify(data),
+            headers: {
+                "Content-type": "application/json; charset=UTF-8"
+            },
+            success: function (res) {
+                let response = JSON.parse(res);
+                generateListTask(response);
+                message({
+                    text: 'Task added success',
+                    cssClass: 'alert-success',
+                    timeout: 2000
+                })
+            },
+            error: function (err) {
+                console.log(err)
+            }
+        });
+
         inputText.classList.remove('is-invalid');
-        addList(inputText.value);
-        successDiv.classList.add('alert_show');
         form.reset();
     }
-    deleteAlertInfo();
 
 });
-inputText.addEventListener('keyup', function (e) {
-    if(inputText.value){
-        inputText.classList.remove('is-invalid');
+
+ul.addEventListener('click', function (e) {
+    const parent = e.target.closest('li');
+
+    if (e.target.classList.contains('editItem')){
+        e.target.classList.toggle('fa-save');
+        editListItem(e.target);
+    } else if (e.target.classList.contains('deleteItem')){
+        parent.remove();
+        deleteListItem(e.target);
     }
+
 });
-
-generateList(tasks);
-
-

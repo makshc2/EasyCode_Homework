@@ -1,16 +1,13 @@
-.alert-success, .alert-danger, .alert-info{
+.fas{
+justify-items: center;
+    justify-content: center;
+}
+
+.alert_information{
     display: none;
 }
 
-.alert_show{
+.alert_information.show {
     display: flex;
-    justify-content: center;
-}
-tr{
-    display: flex;
-
-}
-.fas{
-justify-items: center;
     justify-content: center;
 }
