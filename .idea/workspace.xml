@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a712ed01-68d6-40fc-bbe4-633bc96eaf0b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №12/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №12/js/GitHub.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №12/js/UI.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №12/js/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №12/stylesheet/style.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Домашняя работа №11/myscript.js" afterPath="$PROJECT_DIR$/Домашняя работа №11/myscript.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,22 +20,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Домашняя работа №11/index.html">
+        <entry file="file://$PROJECT_DIR$/Домашняя работа №12/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="272">
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="39" />
+              <folding>
+                <element signature="e#951#957#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Домашняя работа №12/stylesheet/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myscript.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Домашняя работа №11/myscript.js">
+      <file leaf-file-name="GitHub.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/GitHub.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="18" column="105" lean-forward="false" selection-start-line="18" selection-start-column="105" selection-end-line="18" selection-end-column="105" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UI.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/UI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+              <folding>
+                <marker date="1521319305323" expanded="true" signature="274:1693" ph="..." />
+                <marker date="1521319305323" expanded="true" signature="308:1674" ph="..." />
+                <marker date="1521319305323" expanded="true" signature="351:586" ph="..." />
+                <marker date="1521319305323" expanded="true" signature="629:1651" ph="..." />
+                <marker date="1521319305323" expanded="true" signature="689:1123" ph="..." />
+                <marker date="1521319305323" expanded="true" signature="1171:1624" ph="..." />
+                <marker date="1521319305323" expanded="true" signature="1933:2658" ph="..." />
+                <marker date="1521319305323" expanded="true" signature="1979:2627" ph="..." />
+                <marker date="1521319305323" expanded="true" signature="2034:2170" ph="..." />
+                <marker date="1521319305323" expanded="true" signature="2225:2592" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -42,9 +89,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -97,6 +144,13 @@
         <option value="$PROJECT_DIR$/Домашняя работа №11/myscrip.js" />
         <option value="$PROJECT_DIR$/Домашняя работа №11/index.html" />
         <option value="$PROJECT_DIR$/Домашняя работа №11/myscript.js" />
+        <option value="$PROJECT_DIR$/Домашняя работа №12/myscript.js" />
+        <option value="$PROJECT_DIR$/Домашняя работа №12/style.css" />
+        <option value="$PROJECT_DIR$/Домашняя работа №12/stylesheet/style.css" />
+        <option value="$PROJECT_DIR$/Домашняя работа №12/index.html" />
+        <option value="$PROJECT_DIR$/Домашняя работа №12/js/GitHub.js" />
+        <option value="$PROJECT_DIR$/Домашняя работа №12/js/UI.js" />
+        <option value="$PROJECT_DIR$/Домашняя работа №12/js/app.js" />
       </list>
     </option>
   </component>
@@ -152,14 +206,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
               <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="Домашняя работа №12" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,6 +244,11 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\EasyCode_Homework1\Домашняя работа №12" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -252,7 +316,9 @@
       <workItem from="1520858822421" duration="134000" />
       <workItem from="1521100900566" duration="1276000" />
       <workItem from="1521131955416" duration="19000" />
-      <workItem from="1521132738109" duration="14000" />
+      <workItem from="1521132738109" duration="175000" />
+      <workItem from="1521133008738" duration="144000" />
+      <workItem from="1521302719585" duration="10109000" />
     </task>
     <task id="LOCAL-00001" summary="fix bugs">
       <created>1517480470706</created>
@@ -513,11 +579,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521102016723</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Home work #11 promise">
+      <created>1521132767771</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1521132767771</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158889000" />
+    <option name="totallyTimeSpent" value="169303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -527,12 +600,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -585,7 +658,8 @@
     <MESSAGE value="Home work feed back" />
     <MESSAGE value="Home work #9" />
     <MESSAGE value="Home work #10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home work #10" />
+    <MESSAGE value="Home work #11 promise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home work #11 promise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -594,55 +668,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №6/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №6/plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №6/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя Работа №5/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №6/plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя Работа №5/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя Работа №5/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №4/HomeWork4Array.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -869,8 +894,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №11/myscript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="-341">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/myscript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/stylesheet/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="e#951#957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/UI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+          <folding>
+            <marker date="1521319305323" expanded="true" signature="274:1693" ph="..." />
+            <marker date="1521319305323" expanded="true" signature="308:1674" ph="..." />
+            <marker date="1521319305323" expanded="true" signature="351:586" ph="..." />
+            <marker date="1521319305323" expanded="true" signature="629:1651" ph="..." />
+            <marker date="1521319305323" expanded="true" signature="689:1123" ph="..." />
+            <marker date="1521319305323" expanded="true" signature="1171:1624" ph="..." />
+            <marker date="1521319305323" expanded="true" signature="1933:2658" ph="..." />
+            <marker date="1521319305323" expanded="true" signature="1979:2627" ph="..." />
+            <marker date="1521319305323" expanded="true" signature="2034:2170" ph="..." />
+            <marker date="1521319305323" expanded="true" signature="2225:2592" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/GitHub.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="105" lean-forward="false" selection-start-line="18" selection-start-column="105" selection-end-line="18" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding />
         </state>
       </provider>
