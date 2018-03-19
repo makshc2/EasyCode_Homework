@@ -54,6 +54,13 @@ class UI {
         document.getElementById('repos').innerHTML = output;
     }
 
+    showPreloader(){
+        this.profile.innerHTML =
+            `<div class="preloader-container text-center">
+                  <img src="image/preloader.gif" alt="loading...">
+             </div>`
+    }
+
     showAlert(message = '', className = 'alert alert-info'){
         this.clearAlert();
         const alert = `<div class="${className}">${message}</div>`;

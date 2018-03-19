@@ -4,6 +4,7 @@ const searchInput = document.getElementById('searchUser');
 
 searchInput.addEventListener('keyup', (e) => {
    const userText = e.target.value;
+   ui.showPreloader();
 
    if(userText !==''){
        github.getUser(userText)
