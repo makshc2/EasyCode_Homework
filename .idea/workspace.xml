@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a712ed01-68d6-40fc-bbe4-633bc96eaf0b" name="Default" comment="">
+    <list default="true" id="a712ed01-68d6-40fc-bbe4-633bc96eaf0b" name="Default" comment="Home work #13">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя Работа №13/js/header-scroll.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lesson-7-11" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13" afterPath="$PROJECT_DIR$/Домашняя Работа №13" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/Домашняя Работа №13/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/css/et-line.css" afterPath="$PROJECT_DIR$/Домашняя Работа №13/css/et-line.css" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/Домашняя Работа №13/css/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/css/style.css" afterPath="$PROJECT_DIR$/Домашняя Работа №13/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/et-line.eot" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/et-line.eot" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/et-line.svg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/et-line.svg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/et-line.ttf" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/et-line.ttf" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/et-line.woff" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/et-line.woff" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/Домашняя Работа №13/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/footer-logo.png" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/footer-logo.png" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/inner-bg.jpg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/inner-bg.jpg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/item-1.jpg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/item-1.jpg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/item-2.jpg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/item-2.jpg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/item-3.jpg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/item-3.jpg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/latest-news-1.jpg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/latest-news-1.jpg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/latest-news-2.jpg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/latest-news-2.jpg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/latest-news-3.jpg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/latest-news-3.jpg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/lets-talk.png" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/lets-talk.png" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/logo.png" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/logo.png" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/portfolio-1.jpg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/portfolio-1.jpg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/portfolio-2.jpg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/portfolio-2.jpg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/portfolio-3.jpg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/portfolio-3.jpg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/portfolio-4.jpg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/portfolio-4.jpg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/portfolio-5.jpg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/portfolio-5.jpg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/img/portfolio-6.jpg" afterPath="$PROJECT_DIR$/Домашняя Работа №13/img/portfolio-6.jpg" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/index.html" afterPath="$PROJECT_DIR$/Домашняя Работа №13/index.html" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13/js/bootstrap.min.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +54,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,7 +158,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -138,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,17 +183,23 @@
               <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
               <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="Домашняя Работа №13" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -249,7 +292,8 @@
       <workItem from="1521441409114" duration="2729000" />
       <workItem from="1521446021472" duration="307000" />
       <workItem from="1521720800019" duration="372000" />
-      <workItem from="1521747066809" duration="132000" />
+      <workItem from="1521747066809" duration="225000" />
+      <workItem from="1521747316401" duration="42000" />
     </task>
     <task id="LOCAL-00001" summary="fix bugs">
       <created>1517480470706</created>
@@ -545,11 +589,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521747080798</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Home work #12 github preloader">
+      <created>1521747208681</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1521747208681</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172897000" />
+    <option name="totallyTimeSpent" value="173032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -570,7 +621,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -881,21 +932,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson-7-11/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="887" column="78" lean-forward="true" selection-start-line="887" selection-start-column="78" selection-end-line="887" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson-7-11/js/header-scroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson-7-11/index.html" />
+    <entry file="file://$PROJECT_DIR$/lesson-7-11/js/header-scroll.js" />
   </component>
 </project>
