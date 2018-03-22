@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a712ed01-68d6-40fc-bbe4-633bc96eaf0b" name="Default" comment="">
+    <list default="true" id="a712ed01-68d6-40fc-bbe4-633bc96eaf0b" name="Default" comment="Home work #13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -139,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -147,40 +147,10 @@
               <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
               <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
-              <item name="Домашняя Работа №13 lending" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
-              <item name="Домашняя Работа №13 lending" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
-              <item name="Домашняя Работа №13 lending" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
-              <item name="Домашняя Работа №13 lending" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
-              <item name="Домашняя Работа №13 lending" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,6 +252,7 @@
       <workItem from="1521747066809" duration="225000" />
       <workItem from="1521747316401" duration="167000" />
       <workItem from="1521747508434" duration="94000" />
+      <workItem from="1521747722853" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="fix bugs">
       <created>1517480470706</created>
@@ -598,11 +569,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521747519936</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Home work #13">
+      <created>1521747739179</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1521747739179</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173251000" />
+    <option name="totallyTimeSpent" value="173288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -934,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
