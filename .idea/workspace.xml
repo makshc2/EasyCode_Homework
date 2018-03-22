@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a712ed01-68d6-40fc-bbe4-633bc96eaf0b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/css/et-line.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/et-line.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/et-line.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/et-line.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/et-line.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/footer-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/inner-bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/item-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/item-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/item-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/latest-news-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/latest-news-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/latest-news-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/lets-talk.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/portfolio-1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/portfolio-2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/portfolio-3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/portfolio-4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/portfolio-5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/img/portfolio-6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Домашняя работа №13/js/header-scroll.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13 lending" afterPath="$PROJECT_DIR$/Домашняя Работа №13 lending" />
+      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13 lending" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Домашняя работа №13/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="380">
+              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -90,6 +53,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -305,14 +269,7 @@
       <workItem from="1521747066809" duration="225000" />
       <workItem from="1521747316401" duration="167000" />
       <workItem from="1521747508434" duration="94000" />
-      <workItem from="1521747722853" duration="270000" />
-    </task>
-    <task id="LOCAL-00002" summary="fix bugs home work 2">
-      <created>1517491113390</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1517491113390</updated>
+      <workItem from="1521747722853" duration="326000" />
     </task>
     <task id="LOCAL-00003" summary="feed back home work 3">
       <created>1517499519663</created>
@@ -650,16 +607,24 @@
       <option name="project" value="LOCAL" />
       <updated>1521747963042</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Home work #13.2">
+      <created>1521748006677</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1521748006677</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173521000" />
+    <option name="totallyTimeSpent" value="173577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1444867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1444867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -726,7 +691,8 @@
     <MESSAGE value="Home work #12 github preloader" />
     <MESSAGE value="Home work #13" />
     <MESSAGE value="Home work #13.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home work #13.1" />
+    <MESSAGE value="Home work #13.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home work #13.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -985,8 +951,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №13/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="380">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding />
         </state>
       </provider>
