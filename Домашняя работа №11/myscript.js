@@ -36,8 +36,8 @@ let usersAll = fetch('https://jsonplaceholder.typicode.com/users',{method: 'GET'
 
 Promise.all([postsAll, usersAll])
     .then(data => {
-        dataTotal['posts'] = data[0];
-        dataTotal['users'] = data[1];
+        totalData['posts'] = data[0];
+        totalData['users'] = data[1];
 
         return dataTotal
     })
