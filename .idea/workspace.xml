@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a712ed01-68d6-40fc-bbe4-633bc96eaf0b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Домашняя Работа №13 lending" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Домашняя работа №12/js/GitHub.js" afterPath="$PROJECT_DIR$/Домашняя работа №12/js/GitHub.js" />
+      <change beforePath="$PROJECT_DIR$/Домашняя работа №12/js/app.js" afterPath="$PROJECT_DIR$/Домашняя работа №12/js/app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,13 +18,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Домашняя работа №13/index.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UI.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/UI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="660">
+              <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <marker date="1521747718814" expanded="true" signature="274:1693" ph="..." />
+                <marker date="1521747718814" expanded="true" signature="308:1674" ph="..." />
+                <marker date="1521747718814" expanded="true" signature="351:586" ph="..." />
+                <marker date="1521747718814" expanded="true" signature="629:1651" ph="..." />
+                <marker date="1521747718814" expanded="true" signature="689:1123" ph="..." />
+                <marker date="1521747718814" expanded="true" signature="1171:1624" ph="..." />
+                <marker date="1521747718814" expanded="true" signature="1933:2658" ph="..." />
+                <marker date="1521747718814" expanded="true" signature="1979:2627" ph="..." />
+                <marker date="1521747718814" expanded="true" signature="2034:2170" ph="..." />
+                <marker date="1521747718814" expanded="true" signature="2225:2592" ph="..." />
+                <marker date="1521747718814" expanded="true" signature="2853:2940" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Домашняя работа №12/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GitHub.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/GitHub.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding>
+                <element signature="e#247#274#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,13 +136,13 @@
         <option value="$PROJECT_DIR$/Домашняя работа №12/myscript.js" />
         <option value="$PROJECT_DIR$/Домашняя работа №12/style.css" />
         <option value="$PROJECT_DIR$/Домашняя работа №12/stylesheet/style.css" />
-        <option value="$PROJECT_DIR$/Домашняя работа №12/js/GitHub.js" />
-        <option value="$PROJECT_DIR$/Домашняя работа №12/js/app.js" />
         <option value="$PROJECT_DIR$/Домашняя работа №12/index.html" />
         <option value="$PROJECT_DIR$/Домашняя работа №12/js/UI.js" />
         <option value="$PROJECT_DIR$/Домашняя работа №11/myscript.js" />
         <option value="$PROJECT_DIR$/Домашняя работа №11/index.html" />
         <option value="$PROJECT_DIR$/Домашняя Работа №13 lending/index.html" />
+        <option value="$PROJECT_DIR$/Домашняя работа №12/js/app.js" />
+        <option value="$PROJECT_DIR$/Домашняя работа №12/js/GitHub.js" />
       </list>
     </option>
   </component>
@@ -152,7 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -165,6 +210,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,7 +219,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Домашняя работа №13" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.selected.package.jscs" value="" />
@@ -188,6 +234,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Макс\Desktop\EasyCode\Домашняя работа\EasyCode_Homework1\Домашняя работа №12\stylesheet" />
+      <recent name="C:\Users\Макс\Desktop\EasyCode\Домашняя работа\EasyCode_Homework1\Домашняя работа №12" />
       <recent name="C:\Users\Макс\Desktop\EasyCode\Домашняя работа\EasyCode_Homework1\Домашняя работа №13" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -269,14 +317,9 @@
       <workItem from="1521747066809" duration="225000" />
       <workItem from="1521747316401" duration="167000" />
       <workItem from="1521747508434" duration="94000" />
-      <workItem from="1521747722853" duration="326000" />
-    </task>
-    <task id="LOCAL-00003" summary="feed back home work 3">
-      <created>1517499519663</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1517499519663</updated>
+      <workItem from="1521747722853" duration="355000" />
+      <workItem from="1521751877024" duration="969000" />
+      <workItem from="1521971341883" duration="56000" />
     </task>
     <task id="LOCAL-00004" summary="feed back home work 3">
       <created>1517818402436</created>
@@ -614,17 +657,23 @@
       <option name="project" value="LOCAL" />
       <updated>1521748006677</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Home work #13.3">
+      <created>1521748061370</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1521748061370</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173577000" />
+    <option name="totallyTimeSpent" value="174631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1444867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1444867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -692,7 +741,8 @@
     <MESSAGE value="Home work #13" />
     <MESSAGE value="Home work #13.1" />
     <MESSAGE value="Home work #13.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home work #13.2" />
+    <MESSAGE value="Home work #13.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home work #13.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -891,34 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/GitHub.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="105" lean-forward="false" selection-start-line="18" selection-start-column="105" selection-end-line="18" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/UI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №10/myscript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1175">
@@ -951,8 +973,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №13/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="320">
+          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/UI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <marker date="1521747718814" expanded="true" signature="274:1693" ph="..." />
+            <marker date="1521747718814" expanded="true" signature="308:1674" ph="..." />
+            <marker date="1521747718814" expanded="true" signature="351:586" ph="..." />
+            <marker date="1521747718814" expanded="true" signature="629:1651" ph="..." />
+            <marker date="1521747718814" expanded="true" signature="689:1123" ph="..." />
+            <marker date="1521747718814" expanded="true" signature="1171:1624" ph="..." />
+            <marker date="1521747718814" expanded="true" signature="1933:2658" ph="..." />
+            <marker date="1521747718814" expanded="true" signature="1979:2627" ph="..." />
+            <marker date="1521747718814" expanded="true" signature="2034:2170" ph="..." />
+            <marker date="1521747718814" expanded="true" signature="2225:2592" ph="..." />
+            <marker date="1521747718814" expanded="true" signature="2853:2940" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#247#274#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/GitHub.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>

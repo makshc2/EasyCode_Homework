@@ -8,23 +8,23 @@ searchInput.addEventListener('keyup', (e) => {
 
    if(userText !==''){
        // github.getUser(userText)
-           // .then(user => {
-           //     if(user.message === 'Not Found'){
-           //          ui.showAlert(`User: ${userText} not found`, 'alert alert-danger');
-           //          ui.clearProfile();
-           //     }else{
-           //          ui.showProfile(user);
-           //          ui.clearAlert();
-           //     }
-           //     return user;
-           // })
-           // .then(user => github.getRepos(user))
-           // .then(repos => ui.showRepos(repos))
-           // .catch(err => console.log(err));
+       //     .then(user => {
+       //         if(user.message === 'Not Found'){
+       //             ui.showAlert(`User: ${userText} not found`, 'alert alert-danger');
+       //             ui.clearProfile();
+       //         }else{
+       //             ui.showProfile(user);
+       //             ui.clearAlert();
+       //         }
+       //         return user;
+       //     })
+       //     .then(user => github.getRepos(user))
+       //     .then(repos => ui.showRepos(repos))
+       //     .catch(err => console.log(err));
 
-       github.getUser(userText)
+       github.getUserAsync(userText)
            .then(info => {
-               if(info.userData.message === "Not found"){
+               if(info.userData.message === 'Not found'){
                    ui.showAlert(`User: ${userText} not found`, 'alert alert-danger');
                    ui.clearProfile();
                }else {
