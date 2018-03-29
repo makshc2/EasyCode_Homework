@@ -1,19 +1,17 @@
 (function ($){
-
     class Modal{
-
         constructor(element, options){
             this.default = {
                 closeClass: 'close-modal',
                 autoClose: false,
                 autoCloseTime: 1000,
                 opacity: 0.7,
-                position: 'center',
+                position: 'top',
                 duration: 500
             }
             this.modal = element;
             this.options = $.extend(this.default, options);
-            this.overlay = $('<div class="overlay"></div>');
+            this.overlay = $('.overlay');
         }
 
         init(){
@@ -28,7 +26,15 @@
             $(`.${this.options.closeClass}`).on('click', (e) => this.closeModal());
         }
 
+        clearEvents(){
+            this.overlay.off('click');
+            $(`.${this.options.closeClass}`).off('click');
+        }
+
         showOverlay(){
+            if(!this.overlay.length){
+                this.overlay = $('<div class="overlay"></div>');
+            }
             this.overlay.css({
                 'display':'block',
                 'position':'fixed',
@@ -46,7 +52,7 @@
         showModal(){
             const halfWidth = this.modal.outerWidth() / 2;
             const halfHeight = this.modal.outerHeight() / 2;
-            
+
             this.styles = {
                 center:{
                     'display': 'block',
@@ -61,7 +67,7 @@
                 top:{
                     'display': 'block',
                     'position': 'fixed',
-                    'top': '39%',
+                    'top': '34%',
                     'left': '50%',
                     'z-index': '1000',
                     'opacity': '0',
@@ -71,7 +77,7 @@
                 bottom:{
                     'display': 'block',
                     'position': 'fixed',
-                    'top': '61%',
+                    'top': '65%',
                     'left': '50%',
                     'bottom': '100px',
                     'z-index': '1000',
@@ -102,6 +108,8 @@
             }, this.options.duration, () => {
                 this.modal.css({'display': 'none'});
             });
+
+            this.clearEvents();
         }
 
         autoCloseModal() {
