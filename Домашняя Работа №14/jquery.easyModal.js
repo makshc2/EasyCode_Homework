@@ -20,6 +20,7 @@
             this.showOverlay();
             this.showModal();
             this.events();
+            this.autoCloseModal();
         }
 
         events(){
@@ -84,13 +85,12 @@
                 opacity: 1
             }, this.options.duration);
 
-            this.modal.css(this.styles.bottom).animate({
+            this.modal.css(this.styles[this.options.position]).animate({
                 opacity:1
             }, this.options.duration)
         }
 
         closeModal(){
-
             this.overlay.animate({
                 opacity:1
             }, this.options.duration, () => {
@@ -103,6 +103,13 @@
                 this.modal.css({'display': 'none'});
             });
         }
+
+        autoCloseModal() {
+            if (this.options.autoClose) {
+                setTimeout(() => this.closeModal(this), this.options.autoCloseTime);
+            }
+        }
+
     }
 
     $.fn.easyModal = function (options) {
