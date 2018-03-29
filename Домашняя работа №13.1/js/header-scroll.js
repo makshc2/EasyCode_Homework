@@ -83,11 +83,11 @@ function clickTabs(e) {
         liTabs.removeClass('active');
         target.addClass('active')
 
-        showTab.fadeOut(100, () => {
+        showTab.fadeOut(200, () => {
             showTab.removeClass('active fade in')
         });
 
-        fadeTab.fadeIn(100, () =>{
+        fadeTab.fadeIn(400, () => {
             fadeTab.addClass('active fade in')
         })
     }
