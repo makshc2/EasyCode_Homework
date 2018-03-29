@@ -1,5 +1,7 @@
 (function ($){
+
     class Modal{
+
         constructor(element, options){
             this.default = {
                 closeClass: 'close-modal',
@@ -11,7 +13,7 @@
             }
             this.modal = element;
             this.options = $.extend(this.default, options);
-            this.overlay = $('<div class="overlay"></div>')
+            this.overlay = $('<div class="overlay"></div>');
         }
 
         init(){
@@ -37,37 +39,63 @@
                 'background-color':`rgba(0,0,0,${this.options.opacity})`,
                 'z-index':'999'
             });
-
             this.modal.before(this.overlay);
         }
 
         showModal(){
             const halfWidth = this.modal.outerWidth() / 2;
             const halfHeight = this.modal.outerHeight() / 2;
+            
+            this.styles = {
+                center:{
+                    'display': 'block',
+                    'position': 'fixed',
+                    'top': '50%',
+                    'left': '50%',
+                    'z-index': '1000',
+                    'opacity': '0',
+                    'margin-top': `-${halfHeight}px`,
+                    'margin-left': `-${halfWidth}px`
+                },
+                top:{
+                    'display': 'block',
+                    'position': 'fixed',
+                    'top': '39%',
+                    'left': '50%',
+                    'z-index': '1000',
+                    'opacity': '0',
+                    'margin-top': `-${halfHeight}px`,
+                    'margin-left': `-${halfWidth}px`
+                },
+                bottom:{
+                    'display': 'block',
+                    'position': 'fixed',
+                    'top': '61%',
+                    'left': '50%',
+                    'bottom': '100px',
+                    'z-index': '1000',
+                    'opacity': '0',
+                    'margin-top': `-${halfHeight}px`,
+                    'margin-left': `-${halfWidth}px`
+                }
+            }
 
             this.overlay.animate({
                 opacity: 1
             }, this.options.duration);
-            this.modal.css({
-                'display':'block',
-                'position':'fixed',
-                'top':'50%',
-                'left':'50%',
-                'z-index':'1000',
-                'opacity':'0',
-                'margin-top': `-${halfHeight}px`,
-                'margin-left': `-${halfWidth}px`
-            }).animate({
+
+            this.modal.css(this.styles.bottom).animate({
                 opacity:1
             }, this.options.duration)
         }
 
         closeModal(){
+
             this.overlay.animate({
                 opacity:1
             }, this.options.duration, () => {
                 this.overlay.css({'display': 'none'});
-            })
+            });
 
             this.modal.animate({
                 opacity:1
@@ -80,4 +108,8 @@
     $.fn.easyModal = function (options) {
         new Modal(this, options).init();
     }
+
 }(jQuery));
+
+
+
