@@ -87,7 +87,7 @@ function clickTabs(e) {
             showTab.removeClass('active fade in')
         });
 
-        fadeTab.fadeIn(100, () =>{
+        fadeTab.fadeIn(500, () => {
             fadeTab.addClass('active fade in')
         })
     }
