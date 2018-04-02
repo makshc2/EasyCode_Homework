@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a712ed01-68d6-40fc-bbe4-633bc96eaf0b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Домашняя работа №15/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Домашняя работа №15/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new lwction/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new lwction/js/UIModule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new lwction/js/appModule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new lwction/js/idModule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new lwction/js/local.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new lwction/js/notific.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new lwction/js/observe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new lwction/js/tasks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Домашняя Работа №14/jquery.easyModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Домашняя Работа №14/jquery.easyModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашняя работа №15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Домашняя работа №15/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Домашняя работа №15/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Домашняя работа №15/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,29 +25,75 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Домашняя работа №15/index.html">
+        <entry file="file://$PROJECT_DIR$/new lwction/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-            <state relative-caret-position="220">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="491">
+              <caret line="47" selection-start-line="47" selection-end-line="47" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Домашняя работа №15/app.js">
-          <provider selected="true" editor-type-id="text-editor" />
-      <file leaf-file-name="jquery.easyModal.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Домашняя Работа №14/jquery.easyModal.js">
+      <file leaf-file-name="observe.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new lwction/js/observe.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appModule.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/new lwction/js/appModule.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new lwction/js/local.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notific.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new lwction/js/notific.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new lwction/js/tasks.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="137" column="30" selection-start-line="137" selection-start-column="30" selection-end-line="137" selection-end-column="30" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="idModule.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new lwction/js/idModule.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIModule.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new lwction/js/UIModule.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -84,12 +137,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/myscript.js" />
-        <option value="$PROJECT_DIR$/HomeWork3.js" />
-        <option value="$PROJECT_DIR$/Домашняя работа №4/HomeWork4Array.js" />
         <option value="$PROJECT_DIR$/Домашняя работа №4/DOM/myscript.js" />
         <option value="$PROJECT_DIR$/Домашняя работа №4/DOM Alert/style.css" />
-        <option value="$PROJECT_DIR$/Домашняя Работа №5/myscript.js" />
         <option value="$PROJECT_DIR$/Домашняя работа №6/style.css" />
         <option value="$PROJECT_DIR$/Домашняя работа №6/index.html" />
         <option value="$PROJECT_DIR$/index.js" />
@@ -127,8 +176,18 @@
         <option value="$PROJECT_DIR$/Домашняя работа №13/js/header-scroll.js" />
         <option value="$PROJECT_DIR$/Домашняя работа №13.1/js/header-scroll.js" />
         <option value="$PROJECT_DIR$/Домашняя Работа №14/jquery.easyModal.js" />
+        <option value="$PROJECT_DIR$/Домашняя Работа №5/myscript.js" />
+        <option value="$PROJECT_DIR$/new lwction/js/app.js" />
         <option value="$PROJECT_DIR$/Домашняя работа №15/index.html" />
         <option value="$PROJECT_DIR$/Домашняя работа №15/app.js" />
+        <option value="$PROJECT_DIR$/new lwction/js/observe.js" />
+        <option value="$PROJECT_DIR$/new lwction/js/idModule.js" />
+        <option value="$PROJECT_DIR$/new lwction/index.html" />
+        <option value="$PROJECT_DIR$/new lwction/js/notific.js" />
+        <option value="$PROJECT_DIR$/new lwction/js/local.js" />
+        <option value="$PROJECT_DIR$/new lwction/js/UIModule.js" />
+        <option value="$PROJECT_DIR$/new lwction/js/tasks.js" />
+        <option value="$PROJECT_DIR$/new lwction/js/appModule.js" />
       </list>
     </option>
   </component>
@@ -174,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,13 +244,23 @@
             <path>
               <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
               <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
-              <item name="Домашняя Работа №14" type="462c0819:PsiDirectoryNode" />
+              <item name="new lwction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="new lwction" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyCode_Homework1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyCode_Homework1" type="462c0819:PsiDirectoryNode" />
+              <item name="Домашняя работа №15" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,14 +286,15 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\EasyCode_Homework1\Домашняя работа №15" />
-      <recent name="C:\Users\user\Desktop\EasyCode_Homework1\Домашняя работа №12" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Макс\Desktop\EasyCode\Домашняя работа\EasyCode_Homework1\Домашняя работа №12\stylesheet" />
       <recent name="C:\Users\Макс\Desktop\EasyCode\Домашняя работа\EasyCode_Homework1\Домашняя работа №12" />
       <recent name="C:\Users\Макс\Desktop\EasyCode\Домашняя работа\EasyCode_Homework1\Домашняя работа №13" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Макс\Desktop\EasyCode\Домашняя работа\EasyCode_Homework1\new lwction" />
+      <recent name="C:\Users\Макс\Desktop\EasyCode\Домашняя работа\EasyCode_Homework1\Домашняя работа №15" />
+      <recent name="C:\Users\user\Desktop\EasyCode_Homework1\Домашняя работа №12" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,32 +377,9 @@
       <workItem from="1522310441946" duration="3060000" />
       <workItem from="1522316212204" duration="599000" />
       <workItem from="1522322128141" duration="5053000" />
-      <workItem from="1522329231834" duration="4233000" />
-      <workItem from="1522568590681" duration="65000" />
-      <workItem from="1522677658823" duration="596000" />
-    </task>
-    <task id="LOCAL-00012" summary="Feed back Home work 5">
-      <created>1518709319950</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1518709319950</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Feed back Home work 5">
-      <created>1518715471000</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1518715471000</updated>
       <workItem from="1522329231834" duration="4087000" />
-      <workItem from="1522339423090" duration="3405000" />
-    </task>
-    <task id="LOCAL-00014" summary="Home work 6">
-      <created>1518724007307</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1518724007307</updated>
+      <workItem from="1522339423090" duration="5190000" />
+      <workItem from="1522685086961" duration="5934000" />
     </task>
     <task id="LOCAL-00015" summary="Home work 6">
       <created>1518728594521</created>
@@ -648,14 +696,6 @@
       <option name="project" value="LOCAL" />
       <updated>1522310466960</updated>
     </task>
-    <task id="LOCAL-00060" summary="Home work #14.1">
-      <created>1522334821137</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1522334821137</updated>
-    </task>
-    <option name="localTasksCounter" value="61" />
     <task id="LOCAL-00060" summary="Home work #14">
       <created>1522340604608</created>
       <option name="number" value="00060" />
@@ -677,16 +717,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522341017845</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Home work #14">
+      <created>1522343503193</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1522343503193</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207106000" />
-    <option name="totallyTimeSpent" value="209704000" />
+    <option name="totallyTimeSpent" value="217423000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15716097" />
@@ -701,31 +746,31 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14583333" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15716097" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32730263" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32730263" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32730263" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32730263" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928476" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -760,8 +805,6 @@
     <MESSAGE value="Home work #13.4" />
     <MESSAGE value="Home work #13.5" />
     <MESSAGE value="Home work #13.6" />
-    <MESSAGE value="Home work #14.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home work #14.1" />
     <MESSAGE value="Home work #14" />
     <option name="LAST_COMMIT_MESSAGE" value="Home work #14" />
   </component>
@@ -771,38 +814,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №4/DOM Alert/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя Работа №5/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="26" column="82" lean-forward="true" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Лекции/Lection 5/myscript.js" />
-    <entry file="file://$USER_HOME$/Лекции/Lection 6/index.html" />
-    <entry file="file://$USER_HOME$/Лекции/Lection 6/myscript.js" />
-    <entry file="file://$PROJECT_DIR$/HomeWork3.js" />
-    <entry file="file://$PROJECT_DIR$/index.js" />
-    <entry file="file://$PROJECT_DIR$/CSS GRID/index.html" />
-    <entry file="file://$PROJECT_DIR$/CSS GRID/style.css" />
     <entry file="file://$PROJECT_DIR$/Домашняя работа №8/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="83" column="23" lean-forward="true" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №8/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -830,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №6/plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя Работа №5/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -846,13 +854,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №12/myscript.js" />
     <entry file="file://$PROJECT_DIR$/Домашняя работа №12/style.css" />
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №10/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №11/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -862,13 +863,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson-7-11/index.html" />
     <entry file="file://$PROJECT_DIR$/lesson-7-11/js/header-scroll.js" />
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №12/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -887,13 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №13.2/js/myscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="70" lean-forward="true" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -918,13 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №10/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №10/myscript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -936,13 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54">
           <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя Работа №5/myscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -991,46 +964,160 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №13.1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         <state relative-caret-position="1100">
           <caret line="302" column="35" selection-start-line="302" selection-start-column="27" selection-end-line="302" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя Работа №14/index.html">
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №13.2/js/myscript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="280">
+          <caret line="14" column="70" lean-forward="true" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя Работа №14/jquery.easyModal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+        <state relative-caret-position="20">
+          <caret line="82" column="38" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя Работа №14/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №15/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №10/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №10/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя Работа №5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="82" lean-forward="true" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №12/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №6/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="16" />
+        <state relative-caret-position="300">
+          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Домашняя работа №15/plugin.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Домашняя Работа №5/myscript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1464">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №15/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        <state relative-caret-position="520">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Домашняя работа №6/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="40" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Домашняя работа №15/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" selection-start-line="11" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new lwction/js/observe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new lwction/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="47" selection-start-line="47" selection-end-line="47" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new lwction/js/idModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new lwction/js/notific.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new lwction/js/local.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new lwction/js/UIModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new lwction/js/tasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new lwction/js/appModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
