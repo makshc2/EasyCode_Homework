@@ -1,0 +1,11 @@
+.alert_information{
+    display: none;
+}
+
+.alert_information.show{
+    display: flex;
+    justify-content: center;
+}
+#minPrice, #maxPrice{
+    width: 150px;
+}
