@@ -45,7 +45,7 @@
         showModal(){
             const halfWidth = this.modal.outerWidth() / 2;
             const halfHeight = this.modal.outerHeight() / 2;
-            
+
             this.styles = {
                 center:{
                     'display': 'block',
