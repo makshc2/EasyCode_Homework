@@ -1,0 +1,2 @@
+const observe = new EventObserver;
+
