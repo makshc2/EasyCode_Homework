@@ -1,2 +1,2 @@
-const observe = new EventObserver;
+const addTaskObserve = new EventObserver;
 

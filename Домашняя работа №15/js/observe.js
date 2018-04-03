@@ -11,10 +11,10 @@ class EventObserver {
     unsubscribe (fn){
         this.observers = this.observers.filter(item => {
             if (item !== fn) {
-                    return item;
-                };
-            });
-        };
+                return item;
+            };
+        });
+    };
 
     fire (args){
         this.observers.forEach(fn => {
