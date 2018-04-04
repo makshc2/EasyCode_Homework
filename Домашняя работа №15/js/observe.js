@@ -1,14 +1,13 @@
-class EventObserver {
-
-    constructor(){
+class EventObserver{
+    constructor() {
         this.observers = [];
-    };
+    }
 
-    subscribe(fn){
+    subscribe(fn) {
         this.observers.push(fn);
-    };
+    }
 
-    unsubscribe(fn){
+    unsubscribe(fn) {
         this.observers = this.observers.filter(item => {
             if (item !== fn) {
                 return item;
@@ -16,10 +15,9 @@ class EventObserver {
         })
     }
 
-    fire(args){
+    fire(args) {
         this.observers.forEach(fn => {
             fn.call(null, args);
         })
     }
-
 }

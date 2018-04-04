@@ -1,3 +1,6 @@
 .empty-alert {
     display: none;
 }
+.alert{
+    text-align: center;
+}
