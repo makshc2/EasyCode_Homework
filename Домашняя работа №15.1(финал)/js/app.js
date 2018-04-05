@@ -134,6 +134,5 @@ clearBtn.addEventListener('click', function (e) {
 });
 
 clearSearch.addEventListener('click', function (e) {
-
-
+    searchInputText.value = '';
 });
