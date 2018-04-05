@@ -39,6 +39,7 @@ form.addEventListener('submit', function (e) {
                 text: 'Item added success!',
                 class: 'alert alert-success'
             }));
+        form.reset();
     }
 });
 
