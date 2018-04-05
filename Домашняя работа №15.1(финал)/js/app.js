@@ -38,7 +38,7 @@ window.addEventListener('load', function (e) {
     let ls = localstorage.getTasks();
     if (ls.length) {
         ls.forEach(task => {
-            tasks.addTask(task)
+            tasks.setTasks(task)
                 .then(oneTask => ui.addTask(oneTask));
         });
     } else {
