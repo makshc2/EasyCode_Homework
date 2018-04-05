@@ -2,19 +2,19 @@
 const id = Id;
 
 const Tasks = (function () {
-    
+
     let tasks = [];
     let instance;
-    
+
     const getTasks = function () {
         return tasks;
     };
-    
-    const setTasks = function (array) {
+
+    const setTasks = async function (array) {
         tasks = array;
         return tasks;
     };
-    
+
     const addTask = async function (task) {
         task.id = id.generate();
         await tasks.push(task);
@@ -30,13 +30,32 @@ const Tasks = (function () {
         tasks = [];
     };
 
+    const editTask = async function (data) {
+        for( let i = 0; i < tasks.length; i++){
+            if (data.id === tasks[i].id){
+                await tasks.splice(i, 1, data);
+                break
+            }
+        }
+
+        return tasks
+    };
+
+    const searchItems = async function (text) {
+        return tasks.filter(task => {
+            return (task.text.toLowerCase().indexOf(text.toLowerCase()) >= 0);
+        })
+    };
+
     const createInstance = function () {
         return {
             getTasks,
             setTasks,
             addTask,
             removeTask,
-            removeAll
+            removeAll,
+            editTask,
+            searchItems,
         }
     };
 
@@ -45,5 +64,5 @@ const Tasks = (function () {
             return instance || (instance = createInstance());
         }
     }
-    
+
 }());
