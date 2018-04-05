@@ -58,8 +58,9 @@ form.addEventListener('submit', function (e) {
     e.preventDefault();
 
     if (!inputText.value) {
-        // show error, is-invalid
+        inputText.classList.add('is-invalid');
     } else {
+        inputText.classList.remove('is-invalid');
         tasks.addTask({ text: inputText.value })
             .then(task => ui.addTask(task))
             .then(() => addTaskObserver.fire({
