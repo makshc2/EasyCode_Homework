@@ -17,7 +17,7 @@ const Tasks = (function () {
     
     const addTask = async function (task) {
         task.id = id.generate();
-        await tasks.unshift(task);
+        await tasks.push(task);
         return task;
     };
 

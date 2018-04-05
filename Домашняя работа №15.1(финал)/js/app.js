@@ -38,7 +38,7 @@ window.addEventListener('load', function (e) {
     let ls = localstorage.getTasks();
     if (ls.length) {
         ls.forEach(task => {
-            tasks.setTasks(task)
+            tasks.addTask(task)
                 .then(oneTask => ui.addTask(oneTask));
         });
     } else {
@@ -50,14 +50,16 @@ form.addEventListener('submit', function (e) {
     e.preventDefault();
 
     if (!inputText.value) {
-        // show error, is-invalid
+        inputText.classList.add('is-invalid');
     } else {
+        inputText.classList.remove('is-invalid');
         tasks.addTask({ text: inputText.value })
             .then(task => ui.addTask(task))
             .then(() => addTaskObserver.fire({
                 text: 'Новая задача добавлена успешно!',
                 class: 'alert alert-success'
             }));
+        form.reset();
     }
 });
 
