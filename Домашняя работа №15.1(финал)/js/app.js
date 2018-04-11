@@ -28,6 +28,7 @@ removeTaskObserver.subscribe(ui.checkList);
 removeAllTasksObserver.subscribe(localstorage.update);
 removeAllTasksObserver.subscribe(notification.show);
 removeAllTasksObserver.subscribe(ui.checkList);
+removeAllTasksObserver.subscribe(ui.deleteAll);
 
 editTaskObserver.subscribe(localstorage.update);
 editTaskObserver.subscribe(notification.show);
@@ -100,7 +101,6 @@ ul.addEventListener('click', function (e) {
 
 clearBtn.addEventListener('click', function (e) {
     tasks.removeAll()
-        .then(() => ui.deleteAll())
         .then(() => removeAllTasksObserver.fire({
             text: 'Все задачи удалены успешно!',
             class: 'alert alert-warning'
@@ -122,15 +122,6 @@ searchForm.addEventListener('submit', (e) => {
         .then(() => {
             ui.checkList()
         });
-});
-
-clearBtn.addEventListener('click', function (e) {
-    tasks.removeAll()
-        .then(() => ui.deleteAll())
-        .then(() => removeAllTasksObserver.fire({
-            text: 'Все задачи удалены успешно!',
-            class: 'alert alert-warning'
-        }))
 });
 
 clearSearch.addEventListener('click', function (e) {

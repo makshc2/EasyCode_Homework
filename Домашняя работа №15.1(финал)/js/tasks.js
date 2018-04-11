@@ -42,9 +42,7 @@ const Tasks = (function () {
     };
 
     const searchItems = async function (text) {
-        return tasks.filter(task => {
-            return (task.text.toLowerCase().indexOf(text.toLowerCase()) >= 0);
-        })
+        return await tasks.filter(task => task.text.toLowerCase().indexOf(text.toLowerCase()) >= 0));
     };
 
     const createInstance = function () {
