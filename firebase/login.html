@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+</head>
+<body>
+<!-- Header start -->
+<nav class="navbar navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Portfolio</a>
+</nav>
+<!-- Header end -->
+
+<main>
+    <section class="login-section mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 mx-auto">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="text-center mb-3">Login <span class="text-primary">Portfolio</span></h3>
+                            <form name="login-form">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" id="password" name="password">
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">Login</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-firestore.js"></script>
+<script src="js/services/fireBase.js"></script>
+<script src="js/services/auth.js"></script>
+<script src="js/services/projects.js"></script>
+<script src="js/services/user.js"></script>
+<script src="js/authAlert.js"></script>
+<script src="js/login.js"></script>
+
+</body>
+</html>
