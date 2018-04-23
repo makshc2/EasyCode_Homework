@@ -3,13 +3,18 @@ const User = (function () {
     let currentUser;
     let instance;
 
-    const getUser = async function () {
+    const getUser = function () {
         return currentUser
+    };
+
+    const setUser = function (user) {
+        return currentUser = user;
     };
 
     const createInstance = function () {
         return {
-            getUser
+            getUser,
+            setUser
         }
     };
 

@@ -1,12 +1,12 @@
 const Firebase = (function () {
 
     const config = {
-        apiKey: "AIzaSyDGnHvMQUSd6tvjWHbCexBlgt5Tt98_Wck",
-        authDomain: "portfolio-3b37d.firebaseapp.com",
-        databaseURL: "https://portfolio-3b37d.firebaseio.com",
-        projectId: "portfolio-3b37d",
-        storageBucket: "portfolio-3b37d.appspot.com",
-        messagingSenderId: "363567904777"
+        apiKey: "AIzaSyApQ1AkDD2K8sINvAuUmLVgRjd64sUnIIM",
+        authDomain: "myapp-6a0a7.firebaseapp.com",
+        databaseURL: "https://myapp-6a0a7.firebaseio.com",
+        projectId: "myapp-6a0a7",
+        storageBucket: "myapp-6a0a7.appspot.com",
+        messagingSenderId: "888084437073"
     };
 
     firebase.initializeApp(config);
